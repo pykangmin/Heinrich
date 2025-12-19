@@ -80,7 +80,7 @@ def fetch_macro_data():
     
     return df
 
-file_name = "indicator_data_2020_20204.xlsx" # 파일명
+file_name = "indicator_data_2020_2024.xlsx" # 파일명
 
 def save_to_formatted_excel(df, file_name=file_name):
     print("--- 엑셀 서식 적용 및 저장 시작 ---")
