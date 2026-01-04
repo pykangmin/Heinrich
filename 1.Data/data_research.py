@@ -121,7 +121,7 @@ def fetch_macro_data():
         "^MOVE": "채권변동성지수",
         "^VIX": "변동성지수"
     })  
-    df = df.interpolate(method="time")
+
     df = df.ffill()
     df = df.round(2)
 
