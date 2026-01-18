@@ -1,6 +1,5 @@
 # 1. 환경 설정
-load_dotenv()
-fred = Fred(os.getenv("FRED_API_KEY"))
+
 import pandas as pd
 import numpy as np
 from fredapi import Fred
@@ -8,6 +7,8 @@ import yfinance as yf
 import os
 from dotenv import load_dotenv
 
+load_dotenv()
+fred = Fred(os.getenv("FRED_API_KEY"))
 
 # 상승,하락 국면 기간 정의
 REGIMES = {
@@ -22,7 +23,6 @@ REGIMES = {
         ("2023-07-19", "2023-10-26"),
     ],
 }
-
 
 # 수집할 지표 정의 
 SERIES_INFO = {
@@ -93,14 +93,14 @@ def load_series(source, code, start="2020-01-01", end="2024-12-31"):
 
 # 3. IQR 계산 함수
 
+# 시리즈의 IQR(Q1, Q3) 반환
 def compute_iqr(series):
-    """시리즈의 IQR(Q1, Q3) 반환"""
     q1 = series.quantile(0.25)
     q3 = series.quantile(0.75)
     return q1, q3
 
+# 시리즈의 IQR(Q1, Q3) 반환
 def intersect_iqr(iqr_list):
-    """여러 IQR 구간의 교집합 계산"""
     lower = max([iqr[0] for iqr in iqr_list])
     upper = min([iqr[1] for iqr in iqr_list])
     if lower <= upper:
@@ -111,6 +111,7 @@ def intersect_iqr(iqr_list):
 
 
 # 4. 레짐별 공통 IQR 계산
+
 results_up = []
 results_down = []
 
@@ -160,4 +161,3 @@ with pd.ExcelWriter(output_path, engine="xlsxwriter") as writer:
     down_df.to_excel(writer, sheet_name="DOWN", index=False)
 
 print(f"엑셀 파일 저장 완료: {output_path}")
-
