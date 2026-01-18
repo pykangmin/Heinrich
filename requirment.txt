@@ -1,3 +1,6 @@
-pandas 
+pandas
 yfinance
+fredapi
+python-dotenv
+xlsxwriter
 matplotlib
