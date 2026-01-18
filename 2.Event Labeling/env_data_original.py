@@ -1,17 +1,12 @@
+# 1. 환경 설정
+load_dotenv()
+fred = Fred(os.getenv("FRED_API_KEY"))
 import pandas as pd
 import numpy as np
 from fredapi import Fred
 import yfinance as yf
 import os
 from dotenv import load_dotenv
-
-
-# 1. 환경 설정
-
-load_dotenv()
-fred = Fred(os.getenv("FRED_API_KEY"))
-
-
 
 
 # 상승,하락 국면 기간 정의
@@ -27,6 +22,7 @@ REGIMES = {
         ("2023-07-19", "2023-10-26"),
     ],
 }
+
 
 # 수집할 지표 정의 
 SERIES_INFO = {
@@ -164,3 +160,4 @@ with pd.ExcelWriter(output_path, engine="xlsxwriter") as writer:
     down_df.to_excel(writer, sheet_name="DOWN", index=False)
 
 print(f"엑셀 파일 저장 완료: {output_path}")
+
