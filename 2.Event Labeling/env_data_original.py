@@ -101,6 +101,12 @@ def compute_iqr(series):
 
 # 시리즈의 IQR(Q1, Q3) 반환
 def intersect_iqr(iqr_list):
+    # Q1 == Q3인 IQR 제거
+    iqr_list = [iqr for iqr in iqr_list if iqr[0] != iqr[1]]
+
+    if not iqr_list:  # 모두 Q1==Q3라면
+        return np.nan, np.nan
+    
     lower = max([iqr[0] for iqr in iqr_list])
     upper = min([iqr[1] for iqr in iqr_list])
     if lower <= upper:
@@ -151,6 +157,7 @@ for name, (source, code) in SERIES_INFO.items():
 
 
 # 5. 결과 정리 및 엑셀 저장
+
 up_df = pd.DataFrame(results_up).sort_values("지표").reset_index(drop=True)
 down_df = pd.DataFrame(results_down).sort_values("지표").reset_index(drop=True)
 
