@@ -4,3 +4,5 @@ fredapi
 python-dotenv
 xlsxwriter
 matplotlib
+openpyxl
+scipy
