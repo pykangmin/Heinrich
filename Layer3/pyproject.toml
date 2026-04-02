@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "layer3-engine"
+version = "0.1.0"
+description = "Layer 3 Stock Selection Engine"
+authors = ["Antigravity <antigravity@example.com>"]
+readme = "README.md"
+packages = [{include = "data_pipeline"}]
+
+[tool.poetry.dependencies]
+python = ">=3.10"
+yfinance = "*"
+pandas = "*"
+beautifulsoup4 = "*"
+lxml = "*"
+sqlalchemy = "*"
+psycopg2-binary = "*"
+python-dotenv = "*"
+requests = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
