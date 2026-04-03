@@ -15,7 +15,6 @@ __pycache__/
 htmlcov/
 
 # Documentation (User Request)
-z_docs/
 
 # IDEs
 .vscode/

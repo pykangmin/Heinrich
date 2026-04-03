@@ -16,6 +16,7 @@ sqlalchemy = "*"
 psycopg2-binary = "*"
 python-dotenv = "*"
 requests = "*"
+openpyxl = "^3.1.5"
 
 [build-system]
 requires = ["poetry-core"]
