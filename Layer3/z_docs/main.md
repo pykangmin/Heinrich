@@ -8,10 +8,21 @@ layer3/
 ├── pyproject.toml
 ├── .env                          # 로컬 시크릿 (커밋 금지)
 ├── .env_example                  # 환경변수 템플릿
+├── 분류.json                      # Value Chain 분류 정의
+├── analysis.txt                  # 실행 결과 추론·분석 누적 기록
 ├── data_pipeline/
 │   ├── __init__.py
 │   ├── sp500_fetcher.py          # SP500Fetcher + OHLCVFetcher
-│   └── db_manager.py             # DBManager (Ticker, DailyPrice ORM)
+│   ├── db_manager.py             # DBManager (Ticker, DailyPrice, Fundamentals, EarningsRevision, InsiderTrade ORM)
+│   ├── fundamentals_fetcher.py   # yfinance 기반 재무지표 스냅샷 적재
+│   ├── earnings_fetcher.py       # yfinance 기반 EPS 추정·리비전 적재
+│   ├── insider_fetcher.py        # SEC EDGAR Form 4 내부자 거래 적재
+│   └── classification_loader.py  # 분류.json → tickers.vc_* 적재
+├── scoring/
+│   ├── __init__.py
+│   ├── track_a.py                # Track A 4개 서브스코어 + compute_track_a()
+│   ├── track_d.py                # Track D 병목 프리미엄 (미구현)
+│   └── engine.py                 # run_scoring() → daily_scores upsert (미구현)
 └── z_docs/
     ├── main.md                   # 본 파일: 인덱스 + 워크플로우
     ├── rules.md                  # AI 협업 규칙
@@ -45,6 +56,7 @@ layer3/
 - `z_docs/task_plan.md`: 현재 작업 목표.
 - `z_docs/task_log.md`: [임시] 실시간 작업 로그 및 에러 기록.
 - `z_docs/log.md`: [영구] 완료된 작업의 정제된 히스토리.
+- `analysis.txt` (프로젝트 루트): [영구] 실행 결과에 대한 추론·분석 누적 기록. 스코어 이상, 데이터 품질 문제, 설계 결정 근거 등을 날짜 헤더와 함께 append.
 
 #### 2. 🚀 분기점: 프로젝트 초기화 (New Project) vs 세션 재개 (Resume)
 내가 너에게 첫 대화를 건넬 때, 현재 작업 환경에 `z_docs/main.md`가 존재하는지 여부에 따라 아래와 같이 다르게 행동하라.
@@ -65,3 +77,4 @@ layer3/
 #### 3. 🔄 작업 및 기록 워크플로우 (공통)
 - 작업을 시작하면 `z_docs/task_log.md`에 모든 시행착오를 기록한다.
 - 하나의 태스크가 완료되면 `z_docs/task_log.md`의 내용을 요약하여 `z_docs/log.md`에 아카이빙하고, `z_docs/task_log.md`는 비운다.
+- 실행 결과에서 이상·의문 사항이 발생하거나 설계 결정의 근거가 필요한 경우, 추론과 분석을 `analysis.txt`에 날짜 헤더(`[YYYY-MM-DD] 제목`)와 함께 append한다. 코드 변경 없이 관찰·판단 내용만 기록하는 분석 전용 파일이다.

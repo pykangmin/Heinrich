@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "Layer 3 Stock Selection Engine"
 authors = ["Antigravity <antigravity@example.com>"]
 readme = "README.md"
-packages = [{include = "data_pipeline"}]
+packages = [{include = "data_pipeline"}, {include = "scoring"}]
 
 [tool.poetry.dependencies]
 python = ">=3.10"

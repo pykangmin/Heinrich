@@ -4,31 +4,30 @@
 
 ---
 
-## 당면 과제: Phase 0 세 번째 단계 — SEC Form 4 내부자 거래 파이프라인
+## Phase 1, Step 1~8: Track A & D 점수 엔진 — 완료 [x]
 
-**목표**: SEC EDGAR Form 4 제출 데이터를 파싱하여 `insider_trades` 테이블에 적재.
+2026-04-04 기준 `daily_scores` 503개 종목 적재 확인. 상세 이력 → `log.md` [2026-04-04].
 
-### 배경
-- `insider_trades` 테이블 스키마:
-  `(id UUID PK gen_random_uuid(), symbol, filing_date, transaction_type, value, created_at)`
-- 내부자 거래는 Track A 점수 모델의 보조 선행 지표.
-- 데이터 소스: **SEC EDGAR** — `https://www.sec.gov/cgi-bin/browse-edgar` 또는 EDGAR Full-Text Search API.
+---
 
-### 결정해야 할 것
-1. **수집 방법** — EDGAR RSS 피드(`/cgi-bin/browse-edgar?action=getcompany&type=4&dateb=&owner=include&count=40&search_text=`) vs EDGAR XBRL API(`/submissions/`)
-2. **매핑 방식** — CIK → S&P 500 symbol 매핑 (EDGAR `company_tickers.json` 활용 가능)
-3. **transaction_type** — 'P'(매수)·'S'(매도)·'A'(부여) 등 필터링 범위
-4. **수집 구간** — 전체 백필(1년치) vs 최근 90일
+## 다음 과제: Phase 2 — Risk Filter 및 매매/방어 로직 통합
 
-### 구현 스펙
-- `data_pipeline/insider_fetcher.py` 신규 작성
-- EDGAR 요청 시 `User-Agent` 헤더 필수 (`User-Agent: <name> <email>`)
-- 출력: `symbol, filing_date, transaction_type, value` DataFrame → `db_manager.upsert_insider_trades(df)` (신규 메서드)
-- `db_manager.py`에 `InsiderTrade` ORM 모델 및 `upsert_insider_trades` 추가
-- `id`는 DB 서버 `gen_random_uuid()` 기본값 사용 (클라이언트 미생성)
+**목표**: 레짐 기반 필터·포트폴리오 방어 로직을 스코어 엔진에 연동.
 
-### 참고 파일
-- `z_docs/schema.md` — insider_trades 테이블 정의
-- `z_docs/source.md` — SEC EDGAR 항목
-- `data_pipeline/earnings_fetcher.py` — fetcher 구조 참고 패턴
-- `data_pipeline/db_manager.py` — ORM 추가 위치
+### 항목 (plan.md Phase 2)
+1. **레짐 Stub 인터페이스** — `"관세/무역전쟁"` 하드코딩 상태에서 레짐 변경 가능한 인터페이스로 추상화 및 스코어 테스트
+2. **SNR 필터 & Beta/상관관계 제어** — 신호 대 잡음비 필터, 베타 상한, 종목 간 상관관계 제어
+3. **Mixed Regime 방어 로직** — Mixed Regime 시 30% 현금 방어 하드코딩
+4. **IR Gap 트레이딩** — Post-Earnings Drift + 테크니컬·실시간 Revision 기반 리밸런싱 연동
+
+### 구현 예정 파일
+- `scoring/regime.py` (신규) — 레짐 정의 및 인터페이스
+- `scoring/risk_filter.py` (신규) — SNR·Beta·상관관계 필터
+- `scoring/portfolio.py` (신규) — 방어 로직·리밸런싱
+
+---
+
+## (참고) Phase 0 — SEC Form 4 내부자 거래 파이프라인 — 완료 [x]
+
+`data_pipeline/insider_fetcher.py`, `InsiderTrade` ORM, `upsert_insider_trades` 구현 완료.
+상세 → `log.md` [2026-04-03].

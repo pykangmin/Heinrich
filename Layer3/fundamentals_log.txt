@@ -1,0 +1,1088 @@
+2026-04-04 21:00:38,292 - INFO - DB 연결 확인 중...
+2026-04-04 21:00:39,780 - INFO - DB 연결 성공 — 수집 시작
+2026-04-04 21:00:41,159 - INFO - 로드된 심볼 503개
+2026-04-04 21:00:41,160 - INFO - [1/503] 종목=A
+2026-04-04 21:00:42,562 - INFO - A: eps_actual=4.53, eps_consensus=6.57048, operating_margin=0.22859, debt_to_equity=0.5139
+2026-04-04 21:00:42,866 - INFO - [2/503] 종목=AAPL
+2026-04-04 21:00:43,358 - INFO - AAPL: eps_actual=7.91, eps_consensus=9.31526, operating_margin=0.35374, debt_to_equity=1.0263
+2026-04-04 21:00:43,663 - INFO - [3/503] 종목=ABBV
+2026-04-04 21:00:44,087 - INFO - ABBV: eps_actual=2.36, eps_consensus=16.11592, operating_margin=0.34108
+2026-04-04 21:00:44,388 - INFO - [4/503] 종목=ABNB
+2026-04-04 21:00:44,789 - INFO - ABNB: eps_actual=4.04, eps_consensus=5.78306, operating_margin=0.096829996, debt_to_equity=0.27698
+2026-04-04 21:00:45,092 - INFO - [5/503] 종목=ABT
+2026-04-04 21:00:45,491 - INFO - ABT: eps_actual=3.72, eps_consensus=6.104, operating_margin=0.21616, debt_to_equity=0.26787
+2026-04-04 21:00:45,797 - INFO - [6/503] 종목=ACGL
+2026-04-04 21:00:46,194 - INFO - ACGL: eps_actual=11.6, eps_consensus=10.11232, operating_margin=0.2953, debt_to_equity=0.11919
+2026-04-04 21:00:46,500 - INFO - [7/503] 종목=ACN
+2026-04-04 21:00:46,906 - INFO - ACN: eps_actual=12.2, eps_consensus=14.92779, operating_margin=0.13819, debt_to_equity=0.25469
+2026-04-04 21:00:47,212 - INFO - [8/503] 종목=ADBE
+2026-04-04 21:00:47,707 - INFO - ADBE: eps_actual=17.15, eps_consensus=26.35597, operating_margin=0.38762, debt_to_equity=0.5834
+2026-04-04 21:00:48,011 - INFO - [9/503] 종목=ADI
+2026-04-04 21:00:48,519 - INFO - ADI: eps_actual=5.48, eps_consensus=13.02867, operating_margin=0.33067, debt_to_equity=0.25753
+2026-04-04 21:00:48,824 - INFO - [10/503] 종목=ADM
+2026-04-04 21:00:49,328 - INFO - ADM: eps_actual=2.23, eps_consensus=4.85245, operating_margin=0.01822, debt_to_equity=0.42375999999999997
+2026-04-04 21:00:49,633 - INFO - [11/503] 종목=ADP
+2026-04-04 21:00:50,055 - INFO - ADP: eps_actual=10.4, eps_consensus=11.968, operating_margin=0.26283002, debt_to_equity=0.70044
+2026-04-04 21:00:50,357 - INFO - [12/503] 종목=ADSK
+2026-04-04 21:00:50,778 - INFO - ADSK: eps_actual=5.24, eps_consensus=14.08118, operating_margin=0.27236, debt_to_equity=0.8978700000000001
+2026-04-04 21:00:51,083 - INFO - [13/503] 종목=AEE
+2026-04-04 21:00:51,477 - INFO - AEE: eps_actual=5.35, eps_consensus=5.79024, operating_margin=0.24605, debt_to_equity=1.47125
+2026-04-04 21:00:51,782 - INFO - [14/503] 종목=AEP
+2026-04-04 21:00:52,183 - INFO - AEP: eps_actual=6.66, eps_consensus=6.8613, operating_margin=0.22843, debt_to_equity=1.54237
+2026-04-04 21:00:52,485 - INFO - [15/503] 종목=AES
+2026-04-04 21:00:52,889 - INFO - AES: eps_actual=1.31, eps_consensus=2.38712, operating_margin=0.16575001, debt_to_equity=2.59393
+2026-04-04 21:00:53,194 - INFO - [16/503] 종목=AFL
+2026-04-04 21:00:53,608 - INFO - AFL: eps_actual=6.82, eps_consensus=7.76935, operating_margin=0.33558998, debt_to_equity=0.42682000000000003
+2026-04-04 21:00:53,913 - INFO - [17/503] 종목=AIG
+2026-04-04 21:00:54,318 - INFO - AIG: eps_actual=5.43, eps_consensus=8.84746, operating_margin=0.13768, debt_to_equity=0.24408000000000002
+2026-04-04 21:00:54,623 - INFO - [18/503] 종목=AIZ
+2026-04-04 21:00:55,023 - INFO - AIZ: eps_actual=16.94, eps_consensus=22.26307, operating_margin=0.101210006, debt_to_equity=0.38844999999999996
+2026-04-04 21:00:55,329 - INFO - [19/503] 종목=AJG
+2026-04-04 21:00:55,725 - INFO - AJG: eps_actual=5.74, eps_consensus=14.84946, operating_margin=0.104370005, debt_to_equity=0.58354
+2026-04-04 21:00:56,030 - INFO - [20/503] 종목=AKAM
+2026-04-04 21:00:56,530 - INFO - AKAM: eps_actual=3.07, eps_consensus=7.59854, operating_margin=0.13822, debt_to_equity=1.14024
+2026-04-04 21:00:56,535 - INFO - 배치 적재: 20행 → DB
+2026-04-04 21:00:56,802 - INFO - fundamentals 20행 upsert 완료.
+2026-04-04 21:00:56,803 - INFO - 배치 적재 완료
+2026-04-04 21:00:57,106 - INFO - [21/503] 종목=ALB
+2026-04-04 21:00:57,528 - INFO - ALB: eps_actual=-5.75, eps_consensus=8.75242, operating_margin=0.02263, debt_to_equity=0.33954
+2026-04-04 21:00:57,834 - INFO - [22/503] 종목=ALGN
+2026-04-04 21:00:58,234 - INFO - ALGN: eps_actual=5.65, eps_consensus=12.2899, operating_margin=0.22384001, debt_to_equity=0.02826
+2026-04-04 21:00:58,536 - INFO - [23/503] 종목=ALL
+2026-04-04 21:00:58,970 - INFO - ALL: eps_actual=38.05, eps_consensus=25.23854, operating_margin=0.29017, debt_to_equity=0.25091
+2026-04-04 21:00:59,273 - INFO - [24/503] 종목=ALLE
+2026-04-04 21:00:59,976 - INFO - ALLE: eps_actual=7.43, eps_consensus=9.48423, operating_margin=0.21409, debt_to_equity=1.04
+2026-04-04 21:01:00,281 - INFO - [25/503] 종목=AMAT
+2026-04-04 21:01:00,685 - INFO - AMAT: eps_actual=9.76, eps_consensus=13.91739, operating_margin=0.29892, debt_to_equity=0.33108
+2026-04-04 21:01:00,988 - INFO - [26/503] 종목=AMCR
+2026-04-04 21:01:01,389 - INFO - AMCR: eps_actual=1.33, eps_consensus=4.40176, operating_margin=0.08295, debt_to_equity=1.38731
+2026-04-04 21:01:01,695 - INFO - [27/503] 종목=AMD
+2026-04-04 21:01:02,208 - INFO - AMD: eps_actual=2.61, eps_consensus=10.77447, operating_margin=0.17059, debt_to_equity=0.06359
+2026-04-04 21:01:02,513 - INFO - [28/503] 종목=AME
+2026-04-04 21:01:03,119 - INFO - AME: eps_actual=6.4, eps_consensus=8.71913, operating_margin=0.27523002, debt_to_equity=0.24194
+2026-04-04 21:01:03,424 - INFO - [29/503] 종목=AMGN
+2026-04-04 21:01:03,819 - INFO - AMGN: eps_actual=14.23, eps_consensus=23.28192, operating_margin=0.30549, debt_to_equity=6.40275
+2026-04-04 21:01:04,123 - INFO - [30/503] 종목=AMP
+2026-04-04 21:01:04,616 - INFO - AMP: eps_actual=36.28, eps_consensus=46.5175, operating_margin=0.35347998, debt_to_equity=0.57597
+2026-04-04 21:01:04,918 - INFO - [31/503] 종목=AMT
+2026-04-04 21:01:05,308 - INFO - AMT: eps_actual=5.4, eps_consensus=6.9326, operating_margin=0.44942, debt_to_equity=4.34211
+2026-04-04 21:01:05,613 - INFO - [32/503] 종목=AMZN
+2026-04-04 21:01:06,007 - INFO - AMZN: eps_actual=7.17, eps_consensus=9.39291, operating_margin=0.10533, debt_to_equity=0.43435
+2026-04-04 21:01:06,312 - INFO - [33/503] 종목=ANET
+2026-04-04 21:01:06,803 - INFO - ANET: eps_actual=2.75, eps_consensus=4.27467, operating_margin=0.41519, debt_to_equity=0.00732
+2026-04-04 21:01:07,108 - INFO - [34/503] 종목=AON
+2026-04-04 21:01:07,509 - INFO - AON: eps_actual=17.03, eps_consensus=21.47072, operating_margin=0.31349, debt_to_equity=1.6831800000000001
+2026-04-04 21:01:07,815 - INFO - [35/503] 종목=AOS
+2026-04-04 21:01:08,221 - INFO - AOS: eps_actual=3.85, eps_consensus=4.34912, operating_margin=0.17951, debt_to_equity=0.10974
+2026-04-04 21:01:08,523 - INFO - [36/503] 종목=APA
+2026-04-04 21:01:08,927 - INFO - APA: eps_actual=3.99, eps_consensus=3.47432, operating_margin=0.30581, debt_to_equity=0.6868500000000001
+2026-04-04 21:01:09,232 - INFO - [37/503] 종목=APD
+2026-04-04 21:01:09,627 - INFO - APD: eps_actual=-1.47, eps_consensus=14.03731, operating_margin=0.24280001, debt_to_equity=1.01991
+2026-04-04 21:01:09,932 - INFO - [38/503] 종목=APH
+2026-04-04 21:01:10,332 - INFO - APH: eps_actual=3.34, eps_consensus=5.1618, operating_margin=0.27469, debt_to_equity=1.1893500000000001
+2026-04-04 21:01:10,635 - INFO - [39/503] 종목=APO
+2026-04-04 21:01:11,029 - INFO - APO: eps_actual=5.54, eps_consensus=10.7638, operating_margin=0.18127, debt_to_equity=0.99468
+2026-04-04 21:01:11,333 - INFO - [40/503] 종목=APP
+2026-04-04 21:01:11,732 - INFO - APP: eps_actual=10.05, eps_consensus=20.2586, operating_margin=0.76917, debt_to_equity=1.7180099999999998
+2026-04-04 21:01:11,733 - INFO - 배치 적재: 20행 → DB
+2026-04-04 21:01:11,975 - INFO - fundamentals 20행 upsert 완료.
+2026-04-04 21:01:11,976 - INFO - 배치 적재 완료
+2026-04-04 21:01:12,281 - INFO - [41/503] 종목=APTV
+2026-04-04 21:01:12,675 - INFO - APTV: eps_actual=0.75, eps_consensus=9.23184, operating_margin=0.10305, debt_to_equity=0.85209
+2026-04-04 21:01:12,980 - INFO - [42/503] 종목=ARE
+2026-04-04 21:01:13,380 - INFO - ARE: eps_actual=-8.44, eps_consensus=-0.08, operating_margin=0.2274, debt_to_equity=0.6661499999999999
+2026-04-04 21:01:13,685 - INFO - [43/503] 종목=ARES
+2026-04-04 21:01:14,078 - INFO - ARES: eps_actual=1.71, eps_consensus=7.56187, operating_margin=0.13537, debt_to_equity=1.6344800000000002
+2026-04-04 21:01:14,379 - INFO - [44/503] 종목=ATO
+2026-04-04 21:01:14,780 - INFO - ATO: eps_actual=7.67, eps_consensus=8.8312, operating_margin=0.38848, debt_to_equity=0.67443
+2026-04-04 21:01:15,085 - INFO - [45/503] 종목=AVB
+2026-04-04 21:01:15,520 - INFO - AVB: eps_actual=7.4, eps_consensus=4.99586, operating_margin=0.30638, debt_to_equity=0.80256
+2026-04-04 21:01:15,825 - INFO - [46/503] 종목=AVGO
+2026-04-04 21:01:16,223 - INFO - AVGO: eps_actual=5.13, eps_consensus=17.83957, operating_margin=0.44943002, debt_to_equity=0.8270399999999999
+2026-04-04 21:01:16,524 - INFO - [47/503] 종목=AVY
+2026-04-04 21:01:16,940 - INFO - AVY: eps_actual=8.8, eps_consensus=11.3773, operating_margin=0.12707, debt_to_equity=1.76335
+2026-04-04 21:01:17,244 - INFO - [48/503] 종목=AWK
+2026-04-04 21:01:17,644 - INFO - AWK: eps_actual=5.69, eps_consensus=6.58216, operating_margin=0.32179, debt_to_equity=1.46987
+2026-04-04 21:01:17,945 - INFO - [49/503] 종목=AXON
+2026-04-04 21:01:18,340 - INFO - AXON: eps_actual=1.53, eps_consensus=10.56888, operating_margin=-0.03063, debt_to_equity=0.59107
+2026-04-04 21:01:18,644 - INFO - [50/503] 종목=AXP
+2026-04-04 21:01:19,040 - INFO - AXP: eps_actual=15.37, eps_consensus=20.14546, operating_margin=0.17459999, debt_to_equity=1.9092099999999999
+2026-04-04 21:01:19,345 - INFO - [51/503] 종목=AZO
+2026-04-04 21:01:19,871 - INFO - AZO: eps_actual=142.82, eps_consensus=174.7042, operating_margin=0.16341999
+2026-04-04 21:01:20,176 - INFO - [52/503] 종목=BA
+2026-04-04 21:01:20,568 - INFO - BA: eps_actual=2.48, eps_consensus=4.69735, operating_margin=-0.03178, debt_to_equity=10.32894
+2026-04-04 21:01:20,870 - INFO - [53/503] 종목=BAC
+2026-04-04 21:01:21,261 - INFO - BAC: eps_actual=3.81, eps_consensus=4.9669, operating_margin=0.41627997
+2026-04-04 21:01:21,564 - INFO - [54/503] 종목=BALL
+2026-04-04 21:01:21,960 - INFO - BALL: eps_actual=3.3, eps_consensus=4.50493, operating_margin=0.101280004, debt_to_equity=1.3602699999999999
+2026-04-04 21:01:22,263 - INFO - [55/503] 종목=BAX
+2026-04-04 21:01:22,667 - INFO - BAX: eps_actual=-1.75, eps_consensus=2.05097, operating_margin=0.07364, debt_to_equity=1.6027500000000001
+2026-04-04 21:01:22,972 - INFO - [56/503] 종목=BBY
+2026-04-04 21:01:23,415 - INFO - BBY: eps_actual=5.04, eps_consensus=7.05514, operating_margin=0.05017, debt_to_equity=1.3947399999999999
+2026-04-04 21:01:23,721 - INFO - [57/503] 종목=BDX
+2026-04-04 21:01:24,114 - INFO - BDX: eps_actual=6.12, eps_consensus=13.51332, operating_margin=0.13347, debt_to_equity=0.7728400000000001
+2026-04-04 21:01:24,418 - INFO - [58/503] 종목=BEN
+2026-04-04 21:01:24,817 - INFO - BEN: eps_actual=1.08, eps_consensus=2.90884, operating_margin=0.16523, debt_to_equity=0.24587
+2026-04-04 21:01:25,119 - INFO - [59/503] 종목=BF-B
+2026-04-04 21:01:25,514 - INFO - BF-B: eps_actual=1.72, eps_consensus=1.69954, operating_margin=0.31913, debt_to_equity=0.67246
+2026-04-04 21:01:25,819 - INFO - [60/503] 종목=BG
+2026-04-04 21:01:26,312 - INFO - BG: eps_actual=4.93, eps_consensus=10.26145, operating_margin=0.01258, debt_to_equity=0.91006
+2026-04-04 21:01:26,314 - INFO - 배치 적재: 20행 → DB
+2026-04-04 21:01:26,610 - INFO - fundamentals 20행 upsert 완료.
+2026-04-04 21:01:26,610 - INFO - 배치 적재 완료
+2026-04-04 21:01:26,914 - INFO - [61/503] 종목=BIIB
+2026-04-04 21:01:27,312 - INFO - BIIB: eps_actual=8.8, eps_consensus=15.95823, operating_margin=0.19641, debt_to_equity=0.36466
+2026-04-04 21:01:27,614 - INFO - [62/503] 종목=BK
+2026-04-04 21:01:28,009 - INFO - BK: eps_actual=7.4, eps_consensus=9.38917, operating_margin=0.37316
+2026-04-04 21:01:28,310 - INFO - [63/503] 종목=BKNG
+2026-04-04 21:01:28,701 - INFO - BKNG: eps_actual=6.63, eps_consensus=313.09357, operating_margin=0.32446
+2026-04-04 21:01:29,003 - INFO - [64/503] 종목=BKR
+2026-04-04 21:01:29,401 - INFO - BKR: eps_actual=2.6, eps_consensus=2.90013, operating_margin=0.1251, debt_to_equity=0.35255000000000003
+2026-04-04 21:01:29,704 - INFO - [65/503] 종목=BLDR
+2026-04-04 21:01:30,099 - INFO - BLDR: eps_actual=3.89, eps_consensus=7.67929, operating_margin=0.0184, debt_to_equity=1.17187
+2026-04-04 21:01:30,402 - INFO - [66/503] 종목=BLK
+2026-04-04 21:01:30,797 - INFO - BLK: eps_actual=35.28, eps_consensus=61.69514, operating_margin=0.36744, debt_to_equity=0.24367
+2026-04-04 21:01:31,098 - INFO - [67/503] 종목=BMY
+2026-04-04 21:01:31,491 - INFO - BMY: eps_actual=3.46, eps_consensus=6.14042, operating_margin=0.28163, debt_to_equity=2.54982
+2026-04-04 21:01:31,797 - INFO - [68/503] 종목=BR
+2026-04-04 21:01:32,194 - INFO - BR: eps_actual=9.04, eps_consensus=10.35021, operating_margin=0.120249994, debt_to_equity=1.17175
+2026-04-04 21:01:32,499 - INFO - [69/503] 종목=BRK-B
+2026-04-04 21:01:32,890 - INFO - BRK-B: eps_actual=31.03, eps_consensus=21.77445, operating_margin=0.32956, debt_to_equity=0.18809
+2026-04-04 21:01:33,193 - INFO - [70/503] 종목=BRO
+2026-04-04 21:01:33,590 - INFO - BRO: eps_actual=3.16, eps_consensus=4.97594, operating_margin=0.23165001, debt_to_equity=0.62976
+2026-04-04 21:01:33,893 - INFO - [71/503] 종목=BSX
+2026-04-04 21:01:34,297 - INFO - BSX: eps_actual=1.94, eps_consensus=3.90897, operating_margin=0.19694, debt_to_equity=0.48921
+2026-04-04 21:01:34,602 - INFO - [72/503] 종목=BX
+2026-04-04 21:01:34,999 - INFO - BX: eps_actual=3.87, eps_consensus=7.8163, operating_margin=0.52829, debt_to_equity=0.6653100000000001
+2026-04-04 21:01:35,301 - INFO - [73/503] 종목=BXP
+2026-04-04 21:01:35,702 - INFO - BXP: eps_actual=1.74, eps_consensus=2.085, operating_margin=-0.06589, debt_to_equity=2.25995
+2026-04-04 21:01:36,007 - INFO - [74/503] 종목=C
+2026-04-04 21:01:36,503 - INFO - C: eps_actual=7.0, eps_consensus=12.14, operating_margin=0.25656998
+2026-04-04 21:01:36,807 - INFO - [75/503] 종목=CAG
+2026-04-04 21:01:37,199 - INFO - CAG: eps_actual=-0.1, eps_consensus=1.7103, operating_margin=0.105670005, debt_to_equity=0.89813
+2026-04-04 21:01:37,505 - INFO - [76/503] 종목=CAH
+2026-04-04 21:01:37,891 - INFO - CAH: eps_actual=6.96, eps_consensus=11.57812, operating_margin=0.01233
+2026-04-04 21:01:38,196 - INFO - [77/503] 종목=CARR
+2026-04-04 21:01:38,585 - INFO - CARR: eps_actual=1.69, eps_consensus=3.17138, operating_margin=0.01923, debt_to_equity=0.8771899999999999
+2026-04-04 21:01:38,888 - INFO - [78/503] 종목=CAT
+2026-04-04 21:01:39,330 - INFO - CAT: eps_actual=18.79, eps_consensus=27.76669, operating_margin=0.16025, debt_to_equity=2.0667
+2026-04-04 21:01:39,635 - INFO - [79/503] 종목=CB
+2026-04-04 21:01:40,035 - INFO - CB: eps_actual=25.68, eps_consensus=29.16844, operating_margin=0.24243, debt_to_equity=0.30944
+2026-04-04 21:01:40,336 - INFO - [80/503] 종목=CBOE
+2026-04-04 21:01:40,728 - INFO - CBOE: eps_actual=10.41, eps_consensus=12.76555, operating_margin=0.36196, debt_to_equity=0.30957999999999997
+2026-04-04 21:01:40,730 - INFO - 배치 적재: 20행 → DB
+2026-04-04 21:01:40,972 - INFO - fundamentals 20행 upsert 완료.
+2026-04-04 21:01:40,972 - INFO - 배치 적재 완료
+2026-04-04 21:01:41,278 - INFO - [81/503] 종목=CBRE
+2026-04-04 21:01:41,679 - INFO - CBRE: eps_actual=3.85, eps_consensus=8.69287, operating_margin=0.0011999999, debt_to_equity=1.06244
+2026-04-04 21:01:41,985 - INFO - [82/503] 종목=CCI
+2026-04-04 21:01:42,381 - INFO - CCI: eps_actual=2.52, eps_consensus=2.93219, operating_margin=0.49206
+2026-04-04 21:01:42,685 - INFO - [83/503] 종목=CCL
+2026-04-04 21:01:43,081 - INFO - CCL: eps_actual=2.27, eps_consensus=2.61001, operating_margin=0.0983, debt_to_equity=2.03901
+2026-04-04 21:01:43,385 - INFO - [84/503] 종목=CDNS
+2026-04-04 21:01:43,789 - INFO - CDNS: eps_actual=4.07, eps_consensus=9.41429, operating_margin=0.32824, debt_to_equity=0.48707
+2026-04-04 21:01:44,095 - INFO - [85/503] 종목=CDW
+2026-04-04 21:01:44,499 - INFO - CDW: eps_actual=8.08, eps_consensus=11.3087, operating_margin=0.07309, debt_to_equity=2.36871
+2026-04-04 21:01:44,804 - INFO - [86/503] 종목=CEG
+2026-04-04 21:01:45,202 - INFO - CEG: eps_actual=7.39, eps_consensus=13.896, operating_margin=0.095979996, debt_to_equity=0.6394
+2026-04-04 21:01:45,507 - INFO - [87/503] 종목=CF
+2026-04-04 21:01:45,950 - INFO - CF: eps_actual=8.97, eps_consensus=7.4059, operating_margin=0.3531, debt_to_equity=0.46765
+2026-04-04 21:01:46,256 - INFO - [88/503] 종목=CFG
+2026-04-04 21:01:46,657 - INFO - CFG: eps_actual=3.86, eps_consensus=6.2964, operating_margin=0.32228002
+2026-04-04 21:01:46,957 - INFO - [89/503] 종목=CHD
+2026-04-04 21:01:47,355 - INFO - CHD: eps_actual=3.02, eps_consensus=4.01463, operating_margin=0.18556, debt_to_equity=0.59517
+2026-04-04 21:01:47,656 - INFO - [90/503] 종목=CHRW
+2026-04-04 21:01:48,149 - INFO - CHRW: eps_actual=4.83, eps_consensus=7.15099, operating_margin=0.05071, debt_to_equity=0.75604
+2026-04-04 21:01:48,452 - INFO - [91/503] 종목=CHTR
+2026-04-04 21:01:48,859 - INFO - CHTR: eps_actual=36.2, eps_consensus=47.32849, operating_margin=0.24741, debt_to_equity=4.82329
+2026-04-04 21:01:49,164 - INFO - [92/503] 종목=CI
+2026-04-04 21:01:49,559 - INFO - CI: eps_actual=22.17, eps_consensus=33.44765, operating_margin=0.0353, debt_to_equity=0.75137
+2026-04-04 21:01:49,865 - INFO - [93/503] 종목=CIEN
+2026-04-04 21:01:50,263 - INFO - CIEN: eps_actual=1.57, eps_consensus=8.25481, operating_margin=0.13399, debt_to_equity=0.56931
+2026-04-04 21:01:50,568 - INFO - [94/503] 종목=CINF
+2026-04-04 21:01:50,961 - INFO - CINF: eps_actual=15.18, eps_consensus=9.20333, operating_margin=0.27596, debt_to_equity=0.05567999999999999
+2026-04-04 21:01:51,267 - INFO - [95/503] 종목=CL
+2026-04-04 21:01:51,762 - INFO - CL: eps_actual=2.63, eps_consensus=4.13578, operating_margin=0.20382, debt_to_equity=23.43562
+2026-04-04 21:01:52,067 - INFO - [96/503] 종목=CLX
+2026-04-04 21:01:52,462 - INFO - CLX: eps_actual=6.11, eps_consensus=6.8009, operating_margin=0.14047, debt_to_equity=91.91429
+2026-04-04 21:01:52,766 - INFO - [97/503] 종목=CMCSA
+2026-04-04 21:01:53,171 - INFO - CMCSA: eps_actual=5.39, eps_consensus=3.87522, operating_margin=0.107889995, debt_to_equity=1.07863
+2026-04-04 21:01:53,477 - INFO - [98/503] 종목=CME
+2026-04-04 21:01:53,874 - INFO - CME: eps_actual=11.17, eps_consensus=12.71065, operating_margin=0.63808, debt_to_equity=0.13078
+2026-04-04 21:01:54,182 - INFO - [99/503] 종목=CMG
+2026-04-04 21:01:54,578 - INFO - CMG: eps_actual=1.14, eps_consensus=1.36026, operating_margin=0.15213001, debt_to_equity=1.7931899999999998
+2026-04-04 21:01:54,881 - INFO - [100/503] 종목=CMI
+2026-04-04 21:01:55,285 - INFO - CMI: eps_actual=20.5, eps_consensus=31.46429, operating_margin=0.10918, debt_to_equity=0.60516
+2026-04-04 21:01:55,286 - INFO - 배치 적재: 20행 → DB
+2026-04-04 21:01:55,574 - INFO - fundamentals 20행 upsert 완료.
+2026-04-04 21:01:55,574 - INFO - 배치 적재 완료
+2026-04-04 21:01:55,876 - INFO - [101/503] 종목=CMS
+2026-04-04 21:01:56,270 - INFO - CMS: eps_actual=3.53, eps_consensus=4.17447, operating_margin=0.21675, debt_to_equity=1.94861
+2026-04-04 21:01:56,576 - INFO - [102/503] 종목=CNC
+2026-04-04 21:01:56,975 - INFO - CNC: eps_actual=-13.53, eps_consensus=4.07664, operating_margin=-0.01878, debt_to_equity=0.9055599999999999
+2026-04-04 21:01:57,279 - INFO - [103/503] 종목=CNP
+2026-04-04 21:01:57,686 - INFO - CNP: eps_actual=1.6, eps_consensus=2.08185, operating_margin=0.21476999, debt_to_equity=2.0659899999999998
+2026-04-04 21:01:57,989 - INFO - [104/503] 종목=COF
+2026-04-04 21:01:58,384 - INFO - COF: eps_actual=3.37, eps_consensus=24.58236, operating_margin=0.22935
+2026-04-04 21:01:58,689 - INFO - [105/503] 종목=COHR
+2026-04-04 21:01:59,110 - INFO - COHR: eps_actual=1.03, eps_consensus=7.42421, operating_margin=0.11783, debt_to_equity=0.39901000000000003
+2026-04-04 21:01:59,414 - INFO - [106/503] 종목=COIN
+2026-04-04 21:01:59,805 - INFO - COIN: eps_actual=4.46, eps_consensus=5.66362, operating_margin=0.11299, debt_to_equity=0.53119
+2026-04-04 21:02:00,110 - INFO - [107/503] 종목=COO
+2026-04-04 21:02:00,519 - INFO - COO: eps_actual=2.01, eps_consensus=5.0181, operating_margin=0.20778999, debt_to_equity=0.33201
+2026-04-04 21:02:00,876 - INFO - [108/503] 종목=COP
+2026-04-04 21:02:01,271 - INFO - COP: eps_actual=6.36, eps_consensus=7.1974, operating_margin=0.16299999, debt_to_equity=0.37828
+2026-04-04 21:02:01,574 - INFO - [109/503] 종목=COR
+2026-04-04 21:02:01,985 - INFO - COR: eps_actual=8.31, eps_consensus=19.63689, operating_margin=0.01181, debt_to_equity=4.72584
+2026-04-04 21:02:02,288 - INFO - [110/503] 종목=COST
+2026-04-04 21:02:03,106 - INFO - COST: eps_actual=19.18, eps_consensus=22.4551, operating_margin=0.036730003, debt_to_equity=0.6025699999999999
+2026-04-04 21:02:03,410 - INFO - [111/503] 종목=CPAY
+2026-04-04 21:02:03,906 - INFO - CPAY: eps_actual=15.02, eps_consensus=29.65715, operating_margin=0.57138, debt_to_equity=2.4334800000000003
+2026-04-04 21:02:04,211 - INFO - [112/503] 종목=CPB
+2026-04-04 21:02:04,704 - INFO - CPB: eps_actual=1.84, eps_consensus=2.25161, operating_margin=0.116610005, debt_to_equity=1.8500100000000002
+2026-04-04 21:02:05,005 - INFO - [113/503] 종목=CPRT
+2026-04-04 21:02:05,399 - INFO - CPRT: eps_actual=1.59, eps_consensus=1.68001, operating_margin=0.34654, debt_to_equity=0.0098
+2026-04-04 21:02:05,702 - INFO - [114/503] 종목=CPT
+2026-04-04 21:02:06,099 - INFO - CPT: eps_actual=3.54, eps_consensus=1.74534, operating_margin=0.19797, debt_to_equity=0.88402
+2026-04-04 21:02:06,402 - INFO - [115/503] 종목=CRH
+2026-04-04 21:02:06,791 - INFO - CRH: eps_actual=5.51, eps_consensus=6.63076, operating_margin=0.15059, debt_to_equity=0.7734099999999999
+2026-04-04 21:02:07,094 - INFO - [116/503] 종목=CRL
+2026-04-04 21:02:07,489 - INFO - CRL: eps_actual=-2.9, eps_consensus=12.31594, operating_margin=0.045089997, debt_to_equity=0.81947
+2026-04-04 21:02:07,791 - INFO - [117/503] 종목=CRM
+2026-04-04 21:02:08,183 - INFO - CRM: eps_actual=7.81, eps_consensus=14.88893, operating_margin=0.19239001, debt_to_equity=0.29947
+2026-04-04 21:02:08,488 - INFO - [118/503] 종목=CRWD
+2026-04-04 21:02:08,896 - INFO - CRWD: eps_actual=-0.64, eps_consensus=6.17242, operating_margin=0.0100300005, debt_to_equity=0.18336
+2026-04-04 21:02:09,199 - INFO - [119/503] 종목=CSCO
+2026-04-04 21:02:09,592 - INFO - CSCO: eps_actual=2.78, eps_consensus=4.51399, operating_margin=0.24868, debt_to_equity=0.66509
+2026-04-04 21:02:09,892 - INFO - [120/503] 종목=CSGP
+2026-04-04 21:02:10,283 - INFO - CSGP: eps_actual=0.02, eps_consensus=1.77569, operating_margin=0.05501, debt_to_equity=0.13666
+2026-04-04 21:02:10,284 - INFO - 배치 적재: 20행 → DB
+2026-04-04 21:02:10,521 - INFO - fundamentals 20행 upsert 완료.
+2026-04-04 21:02:10,521 - INFO - 배치 적재 완료
+2026-04-04 21:02:10,826 - INFO - [121/503] 종목=CSX
+2026-04-04 21:02:11,250 - INFO - CSX: eps_actual=1.54, eps_consensus=2.08978, operating_margin=0.32724997, debt_to_equity=1.48222
+2026-04-04 21:02:11,555 - INFO - [122/503] 종목=CTAS
+2026-04-04 21:02:11,949 - INFO - CTAS: eps_actual=4.74, eps_consensus=5.42487, operating_margin=0.23224, debt_to_equity=0.60943
+2026-04-04 21:02:12,254 - INFO - [123/503] 종목=CTRA
+2026-04-04 21:02:12,649 - INFO - CTRA: eps_actual=2.24, eps_consensus=2.89072, operating_margin=0.33333, debt_to_equity=0.26984
+2026-04-04 21:02:12,954 - INFO - [124/503] 종목=CTSH
+2026-04-04 21:02:13,355 - INFO - CTSH: eps_actual=4.56, eps_consensus=6.13936, operating_margin=0.15995, debt_to_equity=0.07819
+2026-04-04 21:02:13,656 - INFO - [125/503] 종목=CTVA
+2026-04-04 21:02:14,053 - INFO - CTVA: eps_actual=1.75, eps_consensus=4.04466, operating_margin=0.056009997, debt_to_equity=0.12282
+2026-04-04 21:02:14,359 - INFO - [126/503] 종목=CVNA
+2026-04-04 21:02:15,079 - INFO - CVNA: eps_actual=8.44, eps_consensus=10.71758, operating_margin=0.07567, debt_to_equity=1.33119
+2026-04-04 21:02:15,383 - INFO - [127/503] 종목=CVS
+2026-04-04 21:02:15,773 - INFO - CVS: eps_actual=1.39, eps_consensus=8.17643, operating_margin=0.01572, debt_to_equity=1.0606
+2026-04-04 21:02:16,075 - INFO - [128/503] 종목=CVX
+2026-04-04 21:02:16,499 - INFO - CVX: eps_actual=6.63, eps_consensus=10.05476, operating_margin=0.09462, debt_to_equity=0.24323
+2026-04-04 21:02:16,804 - INFO - [129/503] 종목=D
+2026-04-04 21:02:17,294 - INFO - D: eps_actual=3.47, eps_consensus=3.81901, operating_margin=0.22038001, debt_to_equity=1.50094
+2026-04-04 21:02:17,598 - INFO - [130/503] 종목=DAL
+2026-04-04 21:02:18,104 - INFO - DAL: eps_actual=7.66, eps_consensus=8.20032, operating_margin=0.08930001, debt_to_equity=1.02498
+2026-04-04 21:02:18,408 - INFO - [131/503] 종목=DASH
+2026-04-04 21:02:18,802 - INFO - DASH: eps_actual=2.13, eps_consensus=7.6377, operating_margin=0.052589998, debt_to_equity=0.32749
+2026-04-04 21:02:19,107 - INFO - [132/503] 종목=DD
+2026-04-04 21:02:19,499 - INFO - DD: eps_actual=0.21, eps_consensus=2.5428, operating_margin=0.34687, debt_to_equity=0.24484000000000003
+2026-04-04 21:02:19,803 - INFO - [133/503] 종목=DDOG
+2026-04-04 21:02:20,204 - INFO - DDOG: eps_actual=0.31, eps_consensus=2.63493, operating_margin=0.0100300005, debt_to_equity=0.34269
+2026-04-04 21:02:20,506 - INFO - [134/503] 종목=DE
+2026-04-04 21:02:20,897 - INFO - DE: eps_actual=17.73, eps_consensus=23.2096, operating_margin=0.17479, debt_to_equity=3.76022
+2026-04-04 21:02:21,201 - INFO - [135/503] 종목=DECK
+2026-04-04 21:02:21,597 - INFO - DECK: eps_actual=7.04, eps_consensus=7.32248, operating_margin=0.31384, debt_to_equity=0.13140000000000002
+2026-04-04 21:02:21,903 - INFO - [136/503] 종목=DELL
+2026-04-04 21:02:22,302 - INFO - DELL: eps_actual=8.68, eps_consensus=14.49966, operating_margin=0.09623
+2026-04-04 21:02:22,606 - INFO - [137/503] 종목=DG
+2026-04-04 21:02:23,009 - INFO - DG: eps_actual=6.85, eps_consensus=7.97806, operating_margin=0.0608, debt_to_equity=1.84665
+2026-04-04 21:02:23,312 - INFO - [138/503] 종목=DGX
+2026-04-04 21:02:23,704 - INFO - DGX: eps_actual=8.75, eps_consensus=11.48057, operating_margin=0.1397, debt_to_equity=0.9037900000000001
+2026-04-04 21:02:24,010 - INFO - [139/503] 종목=DHI
+2026-04-04 21:02:24,406 - INFO - DHI: eps_actual=10.99, eps_consensus=12.31426, operating_margin=0.110240005, debt_to_equity=0.22872
+2026-04-04 21:02:24,709 - INFO - [140/503] 종목=DHR
+2026-04-04 21:02:25,114 - INFO - DHR: eps_actual=5.03, eps_consensus=9.1029, operating_margin=0.2217, debt_to_equity=0.37487000000000004
+2026-04-04 21:02:25,116 - INFO - 배치 적재: 20행 → DB
+2026-04-04 21:02:25,358 - INFO - fundamentals 20행 upsert 완료.
+2026-04-04 21:02:25,358 - INFO - 배치 적재 완료
+2026-04-04 21:02:25,664 - INFO - [141/503] 종목=DIS
+2026-04-04 21:02:26,057 - INFO - DIS: eps_actual=6.79, eps_consensus=7.34198, operating_margin=0.15361, debt_to_equity=0.40909
+2026-04-04 21:02:26,361 - INFO - [142/503] 종목=DLR
+2026-04-04 21:02:26,754 - INFO - DLR: eps_actual=3.58, eps_consensus=3.40678, operating_margin=0.14147, debt_to_equity=0.81655
+2026-04-04 21:02:27,059 - INFO - [143/503] 종목=DLTR
+2026-04-04 21:02:27,460 - INFO - DLTR: eps_actual=5.94, eps_consensus=7.39973, operating_margin=0.13514, debt_to_equity=1.87904
+2026-04-04 21:02:27,762 - INFO - [144/503] 종목=DOC
+2026-04-04 21:02:28,234 - INFO - DOC: eps_actual=0.1, eps_consensus=0.2, operating_margin=0.20066999, debt_to_equity=1.22183
+2026-04-04 21:02:28,538 - INFO - [145/503] 종목=DOV
+2026-04-04 21:02:28,930 - INFO - DOV: eps_actual=7.97, eps_consensus=11.51026, operating_margin=0.18225999, debt_to_equity=0.48404
+2026-04-04 21:02:29,234 - INFO - [146/503] 종목=DOW
+2026-04-04 21:02:29,635 - INFO - DOW: eps_actual=-3.7, eps_consensus=1.1539, operating_margin=-0.031400003, debt_to_equity=1.1187099999999999
+2026-04-04 21:02:29,935 - INFO - [147/503] 종목=DPZ
+2026-04-04 21:02:30,332 - INFO - DPZ: eps_actual=17.58, eps_consensus=21.51074, operating_margin=0.19243
+2026-04-04 21:02:30,637 - INFO - [148/503] 종목=DRI
+2026-04-04 21:02:31,029 - INFO - DRI: eps_actual=9.48, eps_consensus=11.36655, operating_margin=0.13153, debt_to_equity=3.87681
+2026-04-04 21:02:31,330 - INFO - [149/503] 종목=DTE
+2026-04-04 21:02:31,733 - INFO - DTE: eps_actual=7.03, eps_consensus=8.31047, operating_margin=0.15921, debt_to_equity=2.13601
+2026-04-04 21:02:32,037 - INFO - [150/503] 종목=DUK
+2026-04-04 21:02:32,535 - INFO - DUK: eps_actual=6.31, eps_consensus=7.15565, operating_margin=0.28087, debt_to_equity=1.71838
+2026-04-04 21:02:32,836 - INFO - [151/503] 종목=DVA
+2026-04-04 21:02:33,229 - INFO - DVA: eps_actual=9.51, eps_consensus=16.33213, operating_margin=0.15228, debt_to_equity=11.11353
+2026-04-04 21:02:33,530 - INFO - [152/503] 종목=DVN
+2026-04-04 21:02:34,018 - INFO - DVN: eps_actual=4.17, eps_consensus=4.89296, operating_margin=0.22656, debt_to_equity=0.55951
+2026-04-04 21:02:34,324 - INFO - [153/503] 종목=DXCM
+2026-04-04 21:02:34,760 - INFO - DXCM: eps_actual=2.09, eps_consensus=2.99115, operating_margin=0.25643, debt_to_equity=0.50852
+2026-04-04 21:02:35,061 - INFO - [154/503] 종목=EA
+2026-04-04 21:02:35,451 - INFO - EA: eps_actual=2.67, eps_consensus=9.23883, operating_margin=0.08574, debt_to_equity=0.36443
+2026-04-04 21:02:35,757 - INFO - [155/503] 종목=EBAY
+2026-04-04 21:02:36,153 - INFO - EBAY: eps_actual=4.26, eps_consensus=6.66919, operating_margin=0.16223, debt_to_equity=1.55623
+2026-04-04 21:02:36,457 - INFO - [156/503] 종목=ECL
+2026-04-04 21:02:36,959 - INFO - ECL: eps_actual=7.27, eps_consensus=9.68115, operating_margin=0.19048999, debt_to_equity=0.91769
+2026-04-04 21:02:37,261 - INFO - [157/503] 종목=ED
+2026-04-04 21:02:37,653 - INFO - ED: eps_actual=5.64, eps_consensus=6.48101, operating_margin=0.17802, debt_to_equity=1.1731699999999998
+2026-04-04 21:02:37,955 - INFO - [158/503] 종목=EFX
+2026-04-04 21:02:38,360 - INFO - EFX: eps_actual=5.33, eps_consensus=10.35486, operating_margin=0.18109, debt_to_equity=1.10637
+2026-04-04 21:02:38,662 - INFO - [159/503] 종목=EG
+2026-04-04 21:02:39,063 - INFO - EG: eps_actual=37.81, eps_consensus=61.59061, operating_margin=0.1233, debt_to_equity=0.24481000000000003
+2026-04-04 21:02:39,367 - INFO - [160/503] 종목=EIX
+2026-04-04 21:02:39,764 - INFO - EIX: eps_actual=11.55, eps_consensus=6.51654, operating_margin=0.35949, debt_to_equity=2.15738
+2026-04-04 21:02:39,766 - INFO - 배치 적재: 20행 → DB
+2026-04-04 21:02:40,002 - INFO - fundamentals 20행 upsert 완료.
+2026-04-04 21:02:40,003 - INFO - 배치 적재 완료
+2026-04-04 21:02:40,305 - INFO - [161/503] 종목=EL
+2026-04-04 21:02:40,692 - INFO - EL: eps_actual=-0.51, eps_consensus=3.03009, operating_margin=0.14259, debt_to_equity=2.32945
+2026-04-04 21:02:40,997 - INFO - [162/503] 종목=ELV
+2026-04-04 21:02:41,487 - INFO - ELV: eps_actual=25.2, eps_consensus=29.43781, operating_margin=0.0154, debt_to_equity=0.7438800000000001
+2026-04-04 21:02:41,788 - INFO - [163/503] 종목=EME
+2026-04-04 21:02:42,292 - INFO - EME: eps_actual=28.21, eps_consensus=31.28551, operating_margin=0.09503999, debt_to_equity=0.12913
+2026-04-04 21:02:42,598 - INFO - [164/503] 종목=EMR
+2026-04-04 21:02:42,992 - INFO - EMR: eps_actual=4.08, eps_consensus=7.16647, operating_margin=0.24597, debt_to_equity=0.6928300000000001
+2026-04-04 21:02:43,297 - INFO - [165/503] 종목=EOG
+2026-04-04 21:02:43,693 - INFO - EOG: eps_actual=9.11, eps_consensus=12.43904, operating_margin=0.1694, debt_to_equity=0.3062
+2026-04-04 21:02:43,997 - INFO - [166/503] 종목=EPAM
+2026-04-04 21:02:44,392 - INFO - EPAM: eps_actual=6.72, eps_consensus=13.92949, operating_margin=0.118599996, debt_to_equity=0.03907
+2026-04-04 21:02:44,698 - INFO - [167/503] 종목=EQIX
+2026-04-04 21:02:45,099 - INFO - EQIX: eps_actual=13.81, eps_consensus=17.2375, operating_margin=0.21540001, debt_to_equity=1.60291
+2026-04-04 21:02:45,401 - INFO - [168/503] 종목=EQR
+2026-04-04 21:02:45,791 - INFO - EQR: eps_actual=2.94, eps_consensus=1.50466, operating_margin=0.2851, debt_to_equity=0.74323
+2026-04-04 21:02:46,096 - INFO - [169/503] 종목=EQT
+2026-04-04 21:02:46,503 - INFO - EQT: eps_actual=3.31, eps_consensus=4.66139, operating_margin=0.5499, debt_to_equity=0.28931999999999997
+2026-04-04 21:02:46,807 - INFO - [170/503] 종목=ERIE
+2026-04-04 21:02:47,204 - INFO - ERIE: eps_actual=10.68, eps_consensus=14.01, operating_margin=0.17164, debt_to_equity=0.027120000000000002
+2026-04-04 21:02:47,505 - INFO - [171/503] 종목=ES
+2026-04-04 21:02:47,896 - INFO - ES: eps_actual=4.56, eps_consensus=5.11226, operating_margin=0.22137, debt_to_equity=1.8494599999999999
+2026-04-04 21:02:48,202 - INFO - [172/503] 종목=ESS
+2026-04-04 21:02:48,593 - INFO - ESS: eps_actual=10.39, eps_consensus=6.14551, operating_margin=0.32856, debt_to_equity=1.1943300000000001
+2026-04-04 21:02:48,895 - INFO - [173/503] 종목=ETN
+2026-04-04 21:02:49,287 - INFO - ETN: eps_actual=10.44, eps_consensus=15.63477, operating_margin=0.19972, debt_to_equity=0.54877
+2026-04-04 21:02:49,592 - INFO - [174/503] 종목=ETR
+2026-04-04 21:02:49,986 - INFO - ETR: eps_actual=3.91, eps_consensus=4.93643, operating_margin=0.18986, debt_to_equity=1.8178999999999998
+2026-04-04 21:02:50,288 - INFO - [175/503] 종목=EVRG
+2026-04-04 21:02:50,679 - INFO - EVRG: eps_actual=3.66, eps_consensus=4.55082, operating_margin=0.17736, debt_to_equity=1.4991700000000001
+2026-04-04 21:02:50,984 - INFO - [176/503] 종목=EW
+2026-04-04 21:02:51,376 - INFO - EW: eps_actual=1.81, eps_consensus=3.31152, operating_margin=0.237, debt_to_equity=0.06824
+2026-04-04 21:02:51,678 - INFO - [177/503] 종목=EXC
+2026-04-04 21:02:52,076 - INFO - EXC: eps_actual=2.73, eps_consensus=3.04688, operating_margin=0.21619, debt_to_equity=1.74488
+2026-04-04 21:02:52,379 - INFO - [178/503] 종목=EXE
+2026-04-04 21:02:52,771 - INFO - EXE: eps_actual=7.57, eps_consensus=9.34685, operating_margin=0.27513, debt_to_equity=0.27495
+2026-04-04 21:02:53,077 - INFO - [179/503] 종목=EXPD
+2026-04-04 21:02:53,477 - INFO - EXPD: eps_actual=5.95, eps_consensus=6.47418, operating_margin=0.08786, debt_to_equity=0.24197
+2026-04-04 21:02:53,782 - INFO - [180/503] 종목=EXPE
+2026-04-04 21:02:54,180 - INFO - EXPE: eps_actual=9.8, eps_consensus=22.95753, operating_margin=0.1545, debt_to_equity=2.54692
+2026-04-04 21:02:54,181 - INFO - 배치 적재: 20행 → DB
+2026-04-04 21:02:54,419 - INFO - fundamentals 20행 upsert 완료.
+2026-04-04 21:02:54,420 - INFO - 배치 적재 완료
+2026-04-04 21:02:54,720 - INFO - [181/503] 종목=EXR
+2026-04-04 21:02:55,121 - INFO - EXR: eps_actual=4.59, eps_consensus=4.82382, operating_margin=0.44452, debt_to_equity=0.9867900000000001
+2026-04-04 21:02:55,426 - INFO - [182/503] 종목=F
+2026-04-04 21:02:55,830 - INFO - F: eps_actual=-2.06, eps_consensus=1.8342, operating_margin=-0.0669, debt_to_equity=4.60639
+2026-04-04 21:02:56,132 - INFO - [183/503] 종목=FANG
+2026-04-04 21:02:56,534 - INFO - FANG: eps_actual=5.74, eps_consensus=14.77224, operating_margin=-0.86487, debt_to_equity=0.33784
+2026-04-04 21:02:56,839 - INFO - [184/503] 종목=FAST
+2026-04-04 21:02:57,333 - INFO - FAST: eps_actual=1.09, eps_consensus=1.35738, operating_margin=0.18955, debt_to_equity=0.11205
+2026-04-04 21:02:57,638 - INFO - [185/503] 종목=FCX
+2026-04-04 21:02:58,134 - INFO - FCX: eps_actual=1.52, eps_consensus=3.79461, operating_margin=0.14397, debt_to_equity=0.34103
+2026-04-04 21:02:58,434 - INFO - [186/503] 종목=FDS
+2026-04-04 21:02:58,834 - INFO - FDS: eps_actual=15.55, eps_consensus=19.3844, operating_margin=0.30271, debt_to_equity=0.7297199999999999
+2026-04-04 21:02:59,139 - INFO - [187/503] 종목=FDX
+2026-04-04 21:02:59,533 - INFO - FDX: eps_actual=18.73, eps_consensus=22.31581, operating_margin=0.06942, debt_to_equity=1.40994
+2026-04-04 21:02:59,838 - INFO - [188/503] 종목=FE
+2026-04-04 21:03:00,335 - INFO - FE: eps_actual=1.76, eps_consensus=2.94135, operating_margin=0.26635, debt_to_equity=1.9275499999999999
+2026-04-04 21:03:00,640 - INFO - [189/503] 종목=FFIV
+2026-04-04 21:03:01,046 - INFO - FFIV: eps_actual=12.07, eps_consensus=16.79243, operating_margin=0.26037002, debt_to_equity=0.07566
+2026-04-04 21:03:01,351 - INFO - [190/503] 종목=FICO
+2026-04-04 21:03:01,744 - INFO - FICO: eps_actual=27.03, eps_consensus=53.26446, operating_margin=0.45716
+2026-04-04 21:03:02,046 - INFO - [191/503] 종목=FIS
+2026-04-04 21:03:02,448 - INFO - FIS: eps_actual=0.73, eps_consensus=6.89268, operating_margin=0.24644, debt_to_equity=0.9589300000000001
+2026-04-04 21:03:02,752 - INFO - [192/503] 종목=FISV
+2026-04-04 21:03:03,248 - INFO - FISV: eps_consensus=9.05376
+2026-04-04 21:03:03,551 - INFO - [193/503] 종목=FITB
+2026-04-04 21:03:03,998 - INFO - FITB: eps_actual=3.53, eps_consensus=4.90019, operating_margin=0.41089
+2026-04-04 21:03:04,304 - INFO - [194/503] 종목=FIX
+2026-04-04 21:03:04,794 - INFO - FIX: eps_actual=28.91, eps_consensus=44.29788, operating_margin=0.07885, debt_to_equity=0.45488999999999996
+2026-04-04 21:03:05,099 - INFO - [195/503] 종목=FOX
+2026-04-04 21:03:05,496 - INFO - FOX: eps_actual=4.17, eps_consensus=4.97, operating_margin=0.11347, debt_to_equity=0.67389
+2026-04-04 21:03:05,802 - INFO - [196/503] 종목=FOXA
+2026-04-04 21:03:06,207 - INFO - FOXA: eps_actual=4.17, eps_consensus=5.15855, operating_margin=0.11347, debt_to_equity=0.67389
+2026-04-04 21:03:06,513 - INFO - [197/503] 종목=FRT
+2026-04-04 21:03:06,903 - INFO - FRT: eps_actual=4.68, eps_consensus=3.182, operating_margin=0.34458, debt_to_equity=1.4364
+2026-04-04 21:03:07,204 - INFO - [198/503] 종목=FSLR
+2026-04-04 21:03:07,604 - INFO - FSLR: eps_actual=14.22, eps_consensus=24.47877, operating_margin=0.32560003, debt_to_equity=0.06871000000000001
+2026-04-04 21:03:07,908 - INFO - [199/503] 종목=FTNT
+2026-04-04 21:03:08,305 - INFO - FTNT: eps_actual=2.42, eps_consensus=3.30868, operating_margin=0.32766, debt_to_equity=0.8580200000000001
+2026-04-04 21:03:08,610 - INFO - [200/503] 종목=FTV
+2026-04-04 21:03:09,003 - INFO - FTV: eps_actual=1.59, eps_consensus=3.19008, operating_margin=0.20125, debt_to_equity=0.51177
+2026-04-04 21:03:09,005 - INFO - 배치 적재: 20행 → DB
+2026-04-04 21:03:09,246 - INFO - fundamentals 20행 upsert 완료.
+2026-04-04 21:03:09,247 - INFO - 배치 적재 완료
+2026-04-04 21:03:09,551 - INFO - [201/503] 종목=GD
+2026-04-04 21:03:09,943 - INFO - GD: eps_actual=15.46, eps_consensus=18.04555, operating_margin=0.1014, debt_to_equity=0.38205
+2026-04-04 21:03:10,247 - INFO - [202/503] 종목=GDDY
+2026-04-04 21:03:10,647 - INFO - GDDY: eps_actual=6.22, eps_consensus=12.05533, operating_margin=0.25135002, debt_to_equity=17.95723
+2026-04-04 21:03:10,952 - INFO - [203/503] 종목=GE
+2026-04-04 21:03:11,346 - INFO - GE: eps_actual=8.04, eps_consensus=8.58873, operating_margin=0.19549, debt_to_equity=1.1406999999999998
+2026-04-04 21:03:11,651 - INFO - [204/503] 종목=GEHC
+2026-04-04 21:03:12,044 - INFO - GEHC: eps_actual=4.55, eps_consensus=5.56681, operating_margin=0.15725, debt_to_equity=0.98717
+2026-04-04 21:03:12,346 - INFO - [205/503] 종목=GEN
+2026-04-04 21:03:12,744 - INFO - GEN: eps_actual=0.97, eps_consensus=2.86941, operating_margin=0.35806, debt_to_equity=3.6337900000000003
+2026-04-04 21:03:13,049 - INFO - [206/503] 종목=GEV
+2026-04-04 21:03:13,544 - INFO - GEV: eps_actual=17.7, eps_consensus=23.04199, operating_margin=0.07384, debt_to_equity=0.09727000000000001
+2026-04-04 21:03:13,846 - INFO - [207/503] 종목=GILD
+2026-04-04 21:03:14,288 - INFO - GILD: eps_actual=6.78, eps_consensus=9.62169, operating_margin=0.37375, debt_to_equity=1.12923
+2026-04-04 21:03:14,594 - INFO - [208/503] 종목=GIS
+2026-04-04 21:03:14,997 - INFO - GIS: eps_actual=4.09, eps_consensus=3.29204, operating_margin=0.19194001, debt_to_equity=2.17629
+2026-04-04 21:03:15,301 - INFO - [209/503] 종목=GL
+2026-04-04 21:03:15,702 - INFO - GL: eps_actual=14.07, eps_consensus=16.52727, operating_margin=0.24242, debt_to_equity=0.51258
+2026-04-04 21:03:16,005 - INFO - [210/503] 종목=GLW
+2026-04-04 21:03:16,508 - INFO - GLW: eps_actual=1.83, eps_consensus=3.90454, operating_margin=0.1656, debt_to_equity=0.7619199999999999
+2026-04-04 21:03:16,810 - INFO - [211/503] 종목=GM
+2026-04-04 21:03:17,213 - INFO - GM: eps_actual=3.27, eps_consensus=13.87495, operating_margin=0.065359995, debt_to_equity=2.08299
+2026-04-04 21:03:17,514 - INFO - [212/503] 종목=GNRC
+2026-04-04 21:03:17,907 - INFO - GNRC: eps_actual=2.7, eps_consensus=10.45594, operating_margin=-0.00853, debt_to_equity=0.52479
+2026-04-04 21:03:18,212 - INFO - [213/503] 종목=GOOG
+2026-04-04 21:03:18,614 - INFO - GOOG: eps_actual=10.81, eps_consensus=13.42968, operating_margin=0.31568, debt_to_equity=0.16133
+2026-04-04 21:03:18,916 - INFO - [214/503] 종목=GOOGL
+2026-04-04 21:03:19,320 - INFO - GOOGL: eps_actual=10.8, eps_consensus=13.42968, operating_margin=0.31568, debt_to_equity=0.16133
+2026-04-04 21:03:19,622 - INFO - [215/503] 종목=GPC
+2026-04-04 21:03:20,016 - INFO - GPC: eps_actual=0.47, eps_consensus=8.56376, operating_margin=0.04851, debt_to_equity=1.56063
+2026-04-04 21:03:20,321 - INFO - [216/503] 종목=GPN
+2026-04-04 21:03:20,888 - INFO - GPN: eps_actual=4.43, eps_consensus=16.2295, operating_margin=0.27877, debt_to_equity=0.93316
+2026-04-04 21:03:21,194 - INFO - [217/503] 종목=GRMN
+2026-04-04 21:03:21,685 - INFO - GRMN: eps_actual=8.58, eps_consensus=10.1704, operating_margin=0.28902, debt_to_equity=0.021840000000000002
+2026-04-04 21:03:21,988 - INFO - [218/503] 종목=GS
+2026-04-04 21:03:22,383 - INFO - GS: eps_actual=51.35, eps_consensus=65.18562, operating_margin=0.38319, debt_to_equity=5.96073
+2026-04-04 21:03:22,688 - INFO - [219/503] 종목=GWW
+2026-04-04 21:03:23,115 - INFO - GWW: eps_actual=35.42, eps_consensus=48.56268, operating_margin=0.14734, debt_to_equity=0.6911400000000001
+2026-04-04 21:03:23,420 - INFO - [220/503] 종목=HAL
+2026-04-04 21:03:23,818 - INFO - HAL: eps_actual=1.5, eps_consensus=2.69819, operating_margin=0.14902, debt_to_equity=0.7916200000000001
+2026-04-04 21:03:23,820 - INFO - 배치 적재: 20행 → DB
+2026-04-04 21:03:24,057 - INFO - fundamentals 20행 upsert 완료.
+2026-04-04 21:03:24,057 - INFO - 배치 적재 완료
+2026-04-04 21:03:24,362 - INFO - [221/503] 종목=HAS
+2026-04-04 21:03:24,763 - INFO - HAS: eps_actual=-2.3, eps_consensus=6.25905, operating_margin=0.20672001, debt_to_equity=6.005839999999999
+2026-04-04 21:03:25,069 - INFO - [222/503] 종목=HBAN
+2026-04-04 21:03:25,465 - INFO - HBAN: eps_actual=1.39, eps_consensus=1.91155, operating_margin=0.39784
+2026-04-04 21:03:25,768 - INFO - [223/503] 종목=HCA
+2026-04-04 21:03:26,169 - INFO - HCA: eps_actual=28.31, eps_consensus=33.27341, operating_margin=0.16287
+2026-04-04 21:03:26,472 - INFO - [224/503] 종목=HD
+2026-04-04 21:03:27,017 - INFO - HD: eps_actual=14.22, eps_consensus=16.30944, operating_margin=0.100760005, debt_to_equity=5.1439200000000005
+2026-04-04 21:03:27,320 - INFO - [225/503] 종목=HIG
+2026-04-04 21:03:27,721 - INFO - HIG: eps_actual=13.32, eps_consensus=14.4892, operating_margin=0.20019, debt_to_equity=0.23937
+2026-04-04 21:03:28,027 - INFO - [226/503] 종목=HII
+2026-04-04 21:03:28,436 - INFO - HII: eps_actual=15.39, eps_consensus=20.35534, operating_margin=0.05926, debt_to_equity=0.58762
+2026-04-04 21:03:28,741 - INFO - [227/503] 종목=HLT
+2026-04-04 21:03:29,138 - INFO - HLT: eps_actual=6.13, eps_consensus=10.41849, operating_margin=0.46328
+2026-04-04 21:03:29,438 - INFO - [228/503] 종목=HOLX
+2026-04-04 21:03:30,040 - INFO - HOLX: eps_actual=2.41, eps_consensus=4.85245, operating_margin=0.22990999, debt_to_equity=0.48051
+2026-04-04 21:03:30,345 - INFO - [229/503] 종목=HON
+2026-04-04 21:03:30,753 - INFO - HON: eps_actual=6.93, eps_consensus=11.47408, operating_margin=0.15413, debt_to_equity=2.36613
+2026-04-04 21:03:31,055 - INFO - [230/503] 종목=HOOD
+2026-04-04 21:03:31,456 - INFO - HOOD: eps_actual=2.05, eps_consensus=2.79115, operating_margin=0.46532002, debt_to_equity=1.3603999999999998
+2026-04-04 21:03:31,762 - INFO - [231/503] 종목=HPE
+2026-04-04 21:03:32,161 - INFO - HPE: eps_actual=-0.17, eps_consensus=2.72493, operating_margin=0.07644, debt_to_equity=0.87223
+2026-04-04 21:03:32,466 - INFO - [232/503] 종목=HPQ
+2026-04-04 21:03:32,866 - INFO - HPQ: eps_actual=2.64, eps_consensus=2.97537, operating_margin=0.06185
+2026-04-04 21:03:33,171 - INFO - [233/503] 종목=HRL
+2026-04-04 21:03:33,669 - INFO - HRL: eps_actual=0.89, eps_consensus=1.58203, operating_margin=0.11057, debt_to_equity=0.04244
+2026-04-04 21:03:33,972 - INFO - [234/503] 종목=HSIC
+2026-04-04 21:03:34,368 - INFO - HSIC: eps_actual=3.27, eps_consensus=5.87044, operating_margin=0.052950002, debt_to_equity=0.71736
+2026-04-04 21:03:34,671 - INFO - [235/503] 종목=HST
+2026-04-04 21:03:35,065 - INFO - HST: eps_actual=1.1, eps_consensus=0.96705, operating_margin=0.12087, debt_to_equity=0.8377899999999999
+2026-04-04 21:03:35,370 - INFO - [236/503] 종목=HSY
+2026-04-04 21:03:35,767 - INFO - HSY: eps_actual=4.33, eps_consensus=9.85297, operating_margin=0.14703, debt_to_equity=1.23763
+2026-04-04 21:03:36,073 - INFO - [237/503] 종목=HUBB
+2026-04-04 21:03:36,471 - INFO - HUBB: eps_actual=16.56, eps_consensus=21.60387, operating_margin=0.19126, debt_to_equity=0.64473
+2026-04-04 21:03:36,776 - INFO - [238/503] 종목=HUM
+2026-04-04 21:03:37,277 - INFO - HUM: eps_actual=9.83, eps_consensus=15.29111, operating_margin=-0.01793, debt_to_equity=0.74815
+2026-04-04 21:03:37,583 - INFO - [239/503] 종목=HWM
+2026-04-04 21:03:37,994 - INFO - HWM: eps_actual=3.7, eps_consensus=5.50628, operating_margin=0.26338, debt_to_equity=0.60022
+2026-04-04 21:03:38,295 - INFO - [240/503] 종목=IBKR
+2026-04-04 21:03:38,700 - INFO - IBKR: eps_actual=2.22, eps_consensus=2.75576, operating_margin=0.78801, debt_to_equity=1.2433100000000001
+2026-04-04 21:03:38,701 - INFO - 배치 적재: 20행 → DB
+2026-04-04 21:03:38,940 - INFO - fundamentals 20행 upsert 완료.
+2026-04-04 21:03:38,940 - INFO - 배치 적재 완료
+2026-04-04 21:03:39,241 - INFO - [241/503] 종목=IBM
+2026-04-04 21:03:39,836 - INFO - IBM: eps_actual=11.14, eps_consensus=13.40365, operating_margin=0.24768999, debt_to_equity=1.97328
+2026-04-04 21:03:40,138 - INFO - [242/503] 종목=ICE
+2026-04-04 21:03:40,535 - INFO - ICE: eps_actual=5.77, eps_consensus=8.57443, operating_margin=0.49561, debt_to_equity=0.70077
+2026-04-04 21:03:40,839 - INFO - [243/503] 종목=IDXX
+2026-04-04 21:03:41,452 - INFO - IDXX: eps_actual=13.1, eps_consensus=16.42217, operating_margin=0.29764, debt_to_equity=0.60827
+2026-04-04 21:03:41,754 - INFO - [244/503] 종목=IEX
+2026-04-04 21:03:42,154 - INFO - IEX: eps_actual=6.42, eps_consensus=8.97865, operating_margin=0.20698, debt_to_equity=0.48251
+2026-04-04 21:03:42,459 - INFO - [245/503] 종목=IFF
+2026-04-04 21:03:42,854 - INFO - IFF: eps_actual=-1.41, eps_consensus=4.80111, operating_margin=0.04625, debt_to_equity=0.46884
+2026-04-04 21:03:43,159 - INFO - [246/503] 종목=INCY
+2026-04-04 21:03:43,554 - INFO - INCY: eps_actual=6.41, eps_consensus=8.64873, operating_margin=0.25572002, debt_to_equity=0.010629999999999999
+2026-04-04 21:03:43,855 - INFO - [247/503] 종목=INTC
+2026-04-04 21:03:44,252 - INFO - INTC: eps_actual=-0.06, eps_consensus=0.99214, operating_margin=0.051409997, debt_to_equity=0.37282
+2026-04-04 21:03:44,556 - INFO - [248/503] 종목=INTU
+2026-04-04 21:03:44,955 - INFO - INTU: eps_actual=15.38, eps_consensus=26.47723, operating_margin=0.18383, debt_to_equity=0.36148
+2026-04-04 21:03:45,259 - INFO - [249/503] 종목=INVH
+2026-04-04 21:03:45,678 - INFO - INVH: eps_actual=0.96, eps_consensus=0.71606, operating_margin=0.26999, debt_to_equity=0.8812399999999999
+2026-04-04 21:03:45,980 - INFO - [250/503] 종목=IP
+2026-04-04 21:03:46,375 - INFO - IP: eps_actual=-5.61, eps_consensus=2.87368, operating_margin=0.064770006, debt_to_equity=0.71073
+2026-04-04 21:03:46,680 - INFO - [251/503] 종목=IQV
+2026-04-04 21:03:47,077 - INFO - IQV: eps_actual=7.83, eps_consensus=14.07484, operating_margin=0.1517, debt_to_equity=2.45928
+2026-04-04 21:03:47,380 - INFO - [252/503] 종목=IR
+2026-04-04 21:03:47,779 - INFO - IR: eps_actual=1.45, eps_consensus=3.89282, operating_margin=0.20011999, debt_to_equity=0.5069899999999999
+2026-04-04 21:03:48,081 - INFO - [253/503] 종목=IRM
+2026-04-04 21:03:48,487 - INFO - IRM: eps_actual=0.49, eps_consensus=2.56122, operating_margin=0.21956
+2026-04-04 21:03:48,792 - INFO - [254/503] 종목=ISRG
+2026-04-04 21:03:49,182 - INFO - ISRG: eps_actual=7.87, eps_consensus=11.43738, operating_margin=0.30155, debt_to_equity=0.00953
+2026-04-04 21:03:49,487 - INFO - [255/503] 종목=IT
+2026-04-04 21:03:50,042 - INFO - IT: eps_actual=9.64, eps_consensus=14.49149, operating_margin=0.18978001, debt_to_equity=10.46535
+2026-04-04 21:03:50,342 - INFO - [256/503] 종목=ITW
+2026-04-04 21:03:50,746 - INFO - ITW: eps_actual=10.48, eps_consensus=12.1411, operating_margin=0.26753, debt_to_equity=2.8552400000000002
+2026-04-04 21:03:51,050 - INFO - [257/503] 종목=IVZ
+2026-04-04 21:03:51,440 - INFO - IVZ: eps_actual=-1.6, eps_consensus=3.02676, operating_margin=0.20378, debt_to_equity=0.17161
+2026-04-04 21:03:51,745 - INFO - [258/503] 종목=J
+2026-04-04 21:03:52,138 - INFO - J: eps_actual=3.79, eps_consensus=8.02676, operating_margin=0.07434, debt_to_equity=0.65173
+2026-04-04 21:03:52,443 - INFO - [259/503] 종목=JBHT
+2026-04-04 21:03:52,830 - INFO - JBHT: eps_actual=6.13, eps_consensus=8.7922, operating_margin=0.07959, debt_to_equity=0.4826
+2026-04-04 21:03:53,134 - INFO - [260/503] 종목=JBL
+2026-04-04 21:03:53,630 - INFO - JBL: eps_actual=7.41, eps_consensus=14.56567, operating_margin=0.046729997, debt_to_equity=3.25352
+2026-04-04 21:03:53,632 - INFO - 배치 적재: 20행 → DB
+2026-04-04 21:03:53,872 - INFO - fundamentals 20행 upsert 완료.
+2026-04-04 21:03:53,872 - INFO - 배치 적재 완료
+2026-04-04 21:03:54,177 - INFO - [261/503] 종목=JCI
+2026-04-04 21:03:54,564 - INFO - JCI: eps_actual=2.98, eps_consensus=5.55867, operating_margin=0.14715, debt_to_equity=0.73339
+2026-04-04 21:03:54,866 - INFO - [262/503] 종목=JKHY
+2026-04-04 21:03:55,360 - INFO - JKHY: eps_actual=6.98, eps_consensus=6.99364, operating_margin=0.25697002, debt_to_equity=0.03109
+2026-04-04 21:03:55,666 - INFO - [263/503] 종목=JNJ
+2026-04-04 21:03:56,063 - INFO - JNJ: eps_actual=11.03, eps_consensus=12.57469, operating_margin=0.23966, debt_to_equity=0.60499
+2026-04-04 21:03:56,369 - INFO - [264/503] 종목=JPM
+2026-04-04 21:03:56,760 - INFO - JPM: eps_actual=20.03, eps_consensus=23.31829, operating_margin=0.41062
+2026-04-04 21:03:57,063 - INFO - [265/503] 종목=KDP
+2026-04-04 21:03:57,559 - INFO - KDP: eps_actual=1.53, eps_consensus=2.52697, operating_margin=0.22627, debt_to_equity=0.75384
+2026-04-04 21:03:57,864 - INFO - [266/503] 종목=KEY
+2026-04-04 21:03:58,255 - INFO - KEY: eps_actual=1.52, eps_consensus=2.13421, operating_margin=0.33616
+2026-04-04 21:03:58,560 - INFO - [267/503] 종목=KEYS
+2026-04-04 21:03:58,982 - INFO - KEYS: eps_actual=5.68, eps_consensus=10.26427, operating_margin=0.16313, debt_to_equity=0.44673999999999997
+2026-04-04 21:03:59,285 - INFO - [268/503] 종목=KHC
+2026-04-04 21:03:59,692 - INFO - KHC: eps_actual=-4.93, eps_consensus=2.14125, operating_margin=0.17485, debt_to_equity=0.521
+2026-04-04 21:03:59,997 - INFO - [269/503] 종목=KIM
+2026-04-04 21:04:00,399 - INFO - KIM: eps_actual=0.82, eps_consensus=0.868, operating_margin=0.33007, debt_to_equity=0.7867799999999999
+2026-04-04 21:04:00,706 - INFO - [270/503] 종목=KKR
+2026-04-04 21:04:01,103 - INFO - KKR: eps_actual=2.34, eps_consensus=7.84032, operating_margin=0.33029997, debt_to_equity=0.68611
+2026-04-04 21:04:01,408 - INFO - [271/503] 종목=KLAC
+2026-04-04 21:04:01,897 - INFO - KLAC: eps_actual=34.28, eps_consensus=47.69336, operating_margin=0.41313, debt_to_equity=1.11778
+2026-04-04 21:04:02,203 - INFO - [272/503] 종목=KMB
+2026-04-04 21:04:02,613 - INFO - KMB: eps_actual=4.86, eps_consensus=7.71239, operating_margin=0.13161999, debt_to_equity=4.64785
+2026-04-04 21:04:02,918 - INFO - [273/503] 종목=KMI
+2026-04-04 21:04:03,313 - INFO - KMI: eps_actual=1.37, eps_consensus=1.459, operating_margin=0.30257, debt_to_equity=0.9971
+2026-04-04 21:04:03,616 - INFO - [274/503] 종목=KO
+2026-04-04 21:04:04,007 - INFO - KO: eps_actual=3.04, eps_consensus=3.45815, operating_margin=0.24656999, debt_to_equity=1.3979300000000001
+2026-04-04 21:04:04,312 - INFO - [275/503] 종목=KR
+2026-04-04 21:04:04,700 - INFO - KR: eps_actual=1.54, eps_consensus=5.62473, operating_margin=0.034360003, debt_to_equity=4.1597
+2026-04-04 21:04:05,005 - INFO - [276/503] 종목=KVUE
+2026-04-04 21:04:05,397 - INFO - KVUE: eps_actual=0.76, eps_consensus=1.21058, operating_margin=0.17830999, debt_to_equity=0.8057599999999999
+2026-04-04 21:04:05,702 - INFO - [277/503] 종목=L
+2026-04-04 21:04:06,093 - INFO - L: eps_actual=7.97, eps_consensus=2.9, operating_margin=0.13076, debt_to_equity=0.5022099999999999
+2026-04-04 21:04:06,398 - INFO - [278/503] 종목=LDOS
+2026-04-04 21:04:06,815 - INFO - LDOS: eps_actual=11.13, eps_consensus=12.87242, operating_margin=0.11243, debt_to_equity=1.07658
+2026-04-04 21:04:07,120 - INFO - [279/503] 종목=LEN
+2026-04-04 21:04:07,512 - INFO - LEN: eps_actual=6.95, eps_consensus=7.73264, operating_margin=0.0367, debt_to_equity=0.24762
+2026-04-04 21:04:07,813 - INFO - [280/503] 종목=LH
+2026-04-04 21:04:08,211 - INFO - LH: eps_actual=10.46, eps_consensus=19.29242, operating_margin=0.105500005, debt_to_equity=0.7556100000000001
+2026-04-04 21:04:08,215 - INFO - 배치 적재: 20행 → DB
+2026-04-04 21:04:08,485 - INFO - fundamentals 20행 upsert 완료.
+2026-04-04 21:04:08,485 - INFO - 배치 적재 완료
+2026-04-04 21:04:08,788 - INFO - [281/503] 종목=LHX
+2026-04-04 21:04:09,395 - INFO - LHX: eps_actual=8.54, eps_consensus=13.65969, operating_margin=0.097270004, debt_to_equity=0.34574
+2026-04-04 21:04:09,700 - INFO - [282/503] 종목=LII
+2026-04-04 21:04:10,090 - INFO - LII: eps_actual=22.78, eps_consensus=26.60522, operating_margin=0.19749, debt_to_equity=1.5224000000000002
+2026-04-04 21:04:10,395 - INFO - [283/503] 종목=LIN
+2026-04-04 21:04:10,787 - INFO - LIN: eps_actual=14.63, eps_consensus=19.49133, operating_margin=0.28172, debt_to_equity=0.7062999999999999
+2026-04-04 21:04:11,092 - INFO - [284/503] 종목=LITE
+2026-04-04 21:04:11,484 - INFO - LITE: eps_actual=3.47, eps_consensus=14.98126, operating_margin=0.10729, debt_to_equity=3.92476
+2026-04-04 21:04:11,789 - INFO - [285/503] 종목=LLY
+2026-04-04 21:04:12,279 - INFO - LLY: eps_actual=22.92, eps_consensus=42.06553, operating_margin=0.44896, debt_to_equity=1.6531
+2026-04-04 21:04:12,584 - INFO - [286/503] 종목=LMT
+2026-04-04 21:04:12,974 - INFO - LMT: eps_actual=21.49, eps_consensus=32.04083, operating_margin=0.090100005, debt_to_equity=3.3880399999999997
+2026-04-04 21:04:13,275 - INFO - [287/503] 종목=LNT
+2026-04-04 21:04:13,665 - INFO - LNT: eps_actual=3.14, eps_consensus=3.68607, operating_margin=0.16729, debt_to_equity=1.6808
+2026-04-04 21:04:13,966 - INFO - [288/503] 종목=LOW
+2026-04-04 21:04:14,363 - INFO - LOW: eps_actual=11.85, eps_consensus=13.66556, operating_margin=0.08555
+2026-04-04 21:04:14,668 - INFO - [289/503] 종목=LRCX
+2026-04-04 21:04:15,059 - INFO - LRCX: eps_actual=4.87, eps_consensus=6.90346, operating_margin=0.33868998, debt_to_equity=0.44195
+2026-04-04 21:04:15,363 - INFO - [290/503] 종목=LULU
+2026-04-04 21:04:15,856 - INFO - LULU: eps_actual=13.27, eps_consensus=13.26656, operating_margin=0.22311, debt_to_equity=0.36245
+2026-04-04 21:04:16,156 - INFO - [291/503] 종목=LUV
+2026-04-04 21:04:16,692 - INFO - LUV: eps_actual=0.79, eps_consensus=4.66272, operating_margin=0.05093, debt_to_equity=0.7494
+2026-04-04 21:04:16,997 - INFO - [292/503] 종목=LVS
+2026-04-04 21:04:17,385 - INFO - LVS: eps_actual=2.35, eps_consensus=3.76087, operating_margin=0.2387, debt_to_equity=8.29059
+2026-04-04 21:04:17,687 - INFO - [293/503] 종목=LYB
+2026-04-04 21:04:18,215 - INFO - LYB: eps_actual=-2.48, eps_consensus=4.61004, operating_margin=-0.0091699995, debt_to_equity=1.44156
+2026-04-04 21:04:18,518 - INFO - [294/503] 종목=LYV
+2026-04-04 21:04:18,909 - INFO - LYV: eps_actual=-0.23, eps_consensus=2.26836, operating_margin=-0.00821, debt_to_equity=5.72032
+2026-04-04 21:04:19,210 - INFO - [295/503] 종목=MA
+2026-04-04 21:04:19,601 - INFO - MA: eps_actual=16.53, eps_consensus=22.66326, operating_margin=0.57733, debt_to_equity=2.5604199999999997
+2026-04-04 21:04:19,905 - INFO - [296/503] 종목=MAA
+2026-04-04 21:04:20,312 - INFO - MAA: eps_actual=3.78, eps_consensus=3.89, operating_margin=0.28384, debt_to_equity=0.93305
+2026-04-04 21:04:20,614 - INFO - [297/503] 종목=MAR
+2026-04-04 21:04:21,002 - INFO - MAR: eps_actual=9.53, eps_consensus=12.96221, operating_margin=0.43972
+2026-04-04 21:04:21,303 - INFO - [298/503] 종목=MAS
+2026-04-04 21:04:21,697 - INFO - MAS: eps_actual=3.86, eps_consensus=4.62589, operating_margin=0.1478, debt_to_equity=42.30263
+2026-04-04 21:04:22,002 - INFO - [299/503] 종목=MCD
+2026-04-04 21:04:22,389 - INFO - MCD: eps_actual=11.95, eps_consensus=14.36754, operating_margin=0.45071
+2026-04-04 21:04:22,694 - INFO - [300/503] 종목=MCHP
+2026-04-04 21:04:23,084 - INFO - MCHP: eps_actual=-0.3, eps_consensus=2.66061, operating_margin=0.13196, debt_to_equity=0.82382
+2026-04-04 21:04:23,085 - INFO - 배치 적재: 20행 → DB
+2026-04-04 21:04:23,326 - INFO - fundamentals 20행 upsert 완료.
+2026-04-04 21:04:23,326 - INFO - 배치 적재 완료
+2026-04-04 21:04:23,631 - INFO - [301/503] 종목=MCK
+2026-04-04 21:04:24,124 - INFO - MCK: eps_actual=34.66, eps_consensus=44.23371, operating_margin=0.01545
+2026-04-04 21:04:24,430 - INFO - [302/503] 종목=MCO
+2026-04-04 21:04:24,834 - INFO - MCO: eps_actual=13.66, eps_consensus=18.71478, operating_margin=0.42139, debt_to_equity=1.76813
+2026-04-04 21:04:25,135 - INFO - [303/503] 종목=MDLZ
+2026-04-04 21:04:25,527 - INFO - MDLZ: eps_actual=1.89, eps_consensus=3.36902, operating_margin=0.09527001, debt_to_equity=0.84848
+2026-04-04 21:04:25,828 - INFO - [304/503] 종목=MDT
+2026-04-04 21:04:26,227 - INFO - MDT: eps_actual=3.58, eps_consensus=6.06219, operating_margin=0.20007, debt_to_equity=0.5706
+2026-04-04 21:04:26,529 - INFO - [305/503] 종목=MET
+2026-04-04 21:04:26,918 - INFO - MET: eps_actual=4.71, eps_consensus=10.93824, operating_margin=0.0467, debt_to_equity=2.25974
+2026-04-04 21:04:27,221 - INFO - [306/503] 종목=META
+2026-04-04 21:04:27,717 - INFO - META: eps_actual=23.5, eps_consensus=35.96579, operating_margin=0.41314998, debt_to_equity=0.39164
+2026-04-04 21:04:28,022 - INFO - [307/503] 종목=MGM
+2026-04-04 21:04:28,414 - INFO - MGM: eps_actual=0.76, eps_consensus=2.34311, operating_margin=0.07059, debt_to_equity=9.63089
+2026-04-04 21:04:28,717 - INFO - [308/503] 종목=MKC
+2026-04-04 21:04:29,113 - INFO - MKC: eps_actual=6.1, eps_consensus=3.3459, operating_margin=0.14344, debt_to_equity=0.65158
+2026-04-04 21:04:29,415 - INFO - [309/503] 종목=MLM
+2026-04-04 21:04:29,914 - INFO - MLM: eps_actual=16.36, eps_consensus=23.65914, operating_margin=0.23091999, debt_to_equity=0.59866
+2026-04-04 21:04:30,219 - INFO - [310/503] 종목=MMM
+2026-04-04 21:04:30,716 - INFO - MMM: eps_actual=6.0, eps_consensus=9.38443, operating_margin=0.12408, debt_to_equity=2.76638
+2026-04-04 21:04:31,017 - INFO - [311/503] 종목=MNST
+2026-04-04 21:04:31,413 - INFO - MNST: eps_actual=1.94, eps_consensus=2.55025, operating_margin=0.31315002, debt_to_equity=0.008
+2026-04-04 21:04:31,716 - INFO - [312/503] 종목=MO
+2026-04-04 21:04:32,211 - INFO - MO: eps_actual=4.12, eps_consensus=5.80877, operating_margin=1.16696
+2026-04-04 21:04:32,516 - INFO - [313/503] 종목=MOS
+2026-04-04 21:04:32,912 - INFO - MOS: eps_actual=1.7, eps_consensus=2.46033, operating_margin=0.02791, debt_to_equity=0.43154000000000003
+2026-04-04 21:04:33,214 - INFO - [314/503] 종목=MPC
+2026-04-04 21:04:33,613 - INFO - MPC: eps_actual=13.22, eps_consensus=18.37827, operating_margin=0.06287, debt_to_equity=1.42647
+2026-04-04 21:04:33,917 - INFO - [315/503] 종목=MPWR
+2026-04-04 21:04:34,320 - INFO - MPWR: eps_actual=12.86, eps_consensus=25.8451, operating_margin=0.26617, debt_to_equity=0.00683
+2026-04-04 21:04:34,622 - INFO - [316/503] 종목=MRK
+2026-04-04 21:04:35,009 - INFO - MRK: eps_actual=7.28, eps_consensus=9.7429, operating_margin=0.32773998, debt_to_equity=0.95959
+2026-04-04 21:04:35,312 - INFO - [317/503] 종목=MRNA
+2026-04-04 21:04:35,708 - INFO - MRNA: eps_actual=-7.26, eps_consensus=-4.64779, operating_margin=-1.26401, debt_to_equity=0.15087
+2026-04-04 21:04:36,012 - INFO - [318/503] 종목=MRSH
+2026-04-04 21:04:36,526 - INFO - MRSH: eps_actual=8.43, eps_consensus=11.32672, operating_margin=0.25444, debt_to_equity=1.40052
+2026-04-04 21:04:36,828 - INFO - [319/503] 종목=MS
+2026-04-04 21:04:37,220 - INFO - MS: eps_actual=10.21, eps_consensus=12.36247, operating_margin=0.38625, debt_to_equity=4.55747
+2026-04-04 21:04:37,525 - INFO - [320/503] 종목=MSCI
+2026-04-04 21:04:37,926 - INFO - MSCI: eps_actual=15.69, eps_consensus=22.03946, operating_margin=0.55942
+2026-04-04 21:04:37,928 - INFO - 배치 적재: 20행 → DB
+2026-04-04 21:04:38,168 - INFO - fundamentals 20행 upsert 완료.
+2026-04-04 21:04:38,169 - INFO - 배치 적재 완료
+2026-04-04 21:04:38,474 - INFO - [321/503] 종목=MSFT
+2026-04-04 21:04:38,875 - INFO - MSFT: eps_actual=15.98, eps_consensus=18.84459, operating_margin=0.47094002, debt_to_equity=0.31539
+2026-04-04 21:04:39,180 - INFO - [322/503] 종목=MSI
+2026-04-04 21:04:39,654 - INFO - MSI: eps_actual=12.73, eps_consensus=18.21616, operating_margin=0.27811, debt_to_equity=4.0239
+2026-04-04 21:04:39,957 - INFO - [323/503] 종목=MTB
+2026-04-04 21:04:40,353 - INFO - MTB: eps_actual=17.0, eps_consensus=21.05873, operating_margin=0.41404
+2026-04-04 21:04:40,656 - INFO - [324/503] 종목=MTD
+2026-04-04 21:04:41,049 - INFO - MTD: eps_actual=42.08, eps_consensus=51.18754, operating_margin=0.30706
+2026-04-04 21:04:41,351 - INFO - [325/503] 종목=MU
+2026-04-04 21:04:41,746 - INFO - MU: eps_actual=21.21, eps_consensus=98.5484, operating_margin=0.67624, debt_to_equity=0.14901999999999999
+2026-04-04 21:04:42,052 - INFO - [326/503] 종목=NCLH
+2026-04-04 21:04:42,448 - INFO - NCLH: eps_actual=0.92, eps_consensus=2.64477, operating_margin=0.08315, debt_to_equity=7.03028
+2026-04-04 21:04:42,753 - INFO - [327/503] 종목=NDAQ
+2026-04-04 21:04:43,155 - INFO - NDAQ: eps_actual=3.09, eps_consensus=4.40087, operating_margin=0.47557, debt_to_equity=0.77878
+2026-04-04 21:04:43,461 - INFO - [328/503] 종목=NDSN
+2026-04-04 21:04:43,867 - INFO - NDSN: eps_actual=9.23, eps_consensus=12.38443, operating_margin=0.24996, debt_to_equity=0.66986
+2026-04-04 21:04:44,169 - INFO - [329/503] 종목=NEE
+2026-04-04 21:04:44,566 - INFO - NEE: eps_actual=3.3, eps_consensus=4.37902, operating_margin=0.24445999, debt_to_equity=1.4624199999999998
+2026-04-04 21:04:44,871 - INFO - [330/503] 종목=NEM
+2026-04-04 21:04:45,268 - INFO - NEM: eps_actual=6.39, eps_consensus=10.84462, operating_margin=0.58111, debt_to_equity=0.16738
+2026-04-04 21:04:45,573 - INFO - [331/503] 종목=NFLX
+2026-04-04 21:04:45,993 - INFO - NFLX: eps_actual=2.53, eps_consensus=3.85331, operating_margin=0.24535, debt_to_equity=0.6378199999999999
+2026-04-04 21:04:46,293 - INFO - [332/503] 종목=NI
+2026-04-04 21:04:46,690 - INFO - NI: eps_actual=1.95, eps_consensus=2.224, operating_margin=0.26975, debt_to_equity=1.3928399999999999
+2026-04-04 21:04:46,995 - INFO - [333/503] 종목=NKE
+2026-04-04 21:04:47,388 - INFO - NKE: eps_actual=1.52, eps_consensus=1.95209, operating_margin=0.06942, debt_to_equity=0.79333
+2026-04-04 21:04:47,693 - INFO - [334/503] 종목=NOC
+2026-04-04 21:04:48,138 - INFO - NOC: eps_actual=29.08, eps_consensus=30.15538, operating_margin=0.16530001, debt_to_equity=1.07257
+2026-04-04 21:04:48,441 - INFO - [335/503] 종목=NOW
+2026-04-04 21:04:48,945 - INFO - NOW: eps_actual=1.67, eps_consensus=5.01803, operating_margin=0.16508, debt_to_equity=0.18536000000000002
+2026-04-04 21:04:49,247 - INFO - [336/503] 종목=NRG
+2026-04-04 21:04:49,635 - INFO - NRG: eps_actual=4.02, eps_consensus=11.6109, operating_margin=0.04256, debt_to_equity=9.89054
+2026-04-04 21:04:49,937 - INFO - [337/503] 종목=NSC
+2026-04-04 21:04:50,342 - INFO - NSC: eps_actual=12.76, eps_consensus=13.47363, operating_margin=0.3117, debt_to_equity=1.14742
+2026-04-04 21:04:50,648 - INFO - [338/503] 종목=NTAP
+2026-04-04 21:04:51,047 - INFO - NTAP: eps_actual=5.96, eps_consensus=8.51125, operating_margin=0.25160998, debt_to_equity=2.36097
+2026-04-04 21:04:51,352 - INFO - [339/503] 종목=NTRS
+2026-04-04 21:04:51,850 - INFO - NTRS: eps_actual=8.73, eps_consensus=11.20923, operating_margin=0.28994
+2026-04-04 21:04:52,155 - INFO - [340/503] 종목=NUE
+2026-04-04 21:04:52,652 - INFO - NUE: eps_actual=7.52, eps_consensus=13.83284, operating_margin=0.06869, debt_to_equity=0.32765
+2026-04-04 21:04:52,654 - INFO - 배치 적재: 20행 → DB
+2026-04-04 21:04:52,889 - INFO - fundamentals 20행 upsert 완료.
+2026-04-04 21:04:52,889 - INFO - 배치 적재 완료
+2026-04-04 21:04:53,192 - INFO - [341/503] 종목=NVDA
+2026-04-04 21:04:53,584 - INFO - NVDA: eps_actual=4.9, eps_consensus=11.11635, operating_margin=0.65024, debt_to_equity=0.07255
+2026-04-04 21:04:53,884 - INFO - [342/503] 종목=NVR
+2026-04-04 21:04:54,289 - INFO - NVR: eps_actual=436.44, eps_consensus=451.5652, operating_margin=0.17357999, debt_to_equity=0.28342
+2026-04-04 21:04:54,594 - INFO - [343/503] 종목=NWS
+2026-04-04 21:04:54,987 - INFO - NWS: eps_actual=0.77, eps_consensus=1.24231, operating_margin=0.17062001, debt_to_equity=0.30892
+2026-04-04 21:04:55,289 - INFO - [344/503] 종목=NWSA
+2026-04-04 21:04:55,729 - INFO - NWSA: eps_actual=0.77, eps_consensus=1.24231, operating_margin=0.17062001, debt_to_equity=0.30892
+2026-04-04 21:04:56,034 - INFO - [345/503] 종목=NXPI
+2026-04-04 21:04:56,526 - INFO - NXPI: eps_actual=7.96, eps_consensus=16.74177, operating_margin=0.26297, debt_to_equity=1.19711
+2026-04-04 21:04:56,829 - INFO - [346/503] 종목=O
+2026-04-04 21:04:57,221 - INFO - O: eps_actual=1.17, eps_consensus=1.75566, operating_margin=0.46975, debt_to_equity=0.73505
+2026-04-04 21:04:57,522 - INFO - [347/503] 종목=ODFL
+2026-04-04 21:04:58,027 - INFO - ODFL: eps_actual=4.83, eps_consensus=6.04217, operating_margin=0.23273, debt_to_equity=0.032799999999999996
+2026-04-04 21:04:58,332 - INFO - [348/503] 종목=OKE
+2026-04-04 21:04:58,733 - INFO - OKE: eps_actual=5.42, eps_consensus=6.03755, operating_margin=0.16976999, debt_to_equity=1.46453
+2026-04-04 21:04:59,039 - INFO - [349/503] 종목=OMC
+2026-04-04 21:04:59,437 - INFO - OMC: eps_actual=-0.27, eps_consensus=12.45524, operating_margin=0.14877, debt_to_equity=0.86307
+2026-04-04 21:04:59,739 - INFO - [350/503] 종목=ON
+2026-04-04 21:05:00,137 - INFO - ON: eps_actual=0.29, eps_consensus=4.04233, operating_margin=0.19136, debt_to_equity=0.42294
+2026-04-04 21:05:00,443 - INFO - [351/503] 종목=ORCL
+2026-04-04 21:05:00,840 - INFO - ORCL: eps_actual=5.58, eps_consensus=7.9729, operating_margin=0.32676, debt_to_equity=4.1526499999999995
+2026-04-04 21:05:01,145 - INFO - [352/503] 종목=ORLY
+2026-04-04 21:05:01,838 - INFO - ORLY: eps_actual=2.97, eps_consensus=3.5729, operating_margin=0.18771
+2026-04-04 21:05:02,143 - INFO - [353/503] 종목=OTIS
+2026-04-04 21:05:02,642 - INFO - OTIS: eps_actual=3.5, eps_consensus=4.80442, operating_margin=0.15648
+2026-04-04 21:05:02,947 - INFO - [354/503] 종목=OXY
+2026-04-04 21:05:03,371 - INFO - OXY: eps_actual=1.35, eps_consensus=3.07771, operating_margin=0.10309, debt_to_equity=0.63804
+2026-04-04 21:05:03,673 - INFO - [355/503] 종목=PANW
+2026-04-04 21:05:04,102 - INFO - PANW: eps_actual=1.8, eps_consensus=3.96848, operating_margin=0.15496999, debt_to_equity=0.04887
+2026-04-04 21:05:04,405 - INFO - [356/503] 종목=PAYX
+2026-04-04 21:05:04,797 - INFO - PAYX: eps_actual=4.53, eps_consensus=5.90284, operating_margin=0.44375, debt_to_equity=1.2490999999999999
+2026-04-04 21:05:05,102 - INFO - [357/503] 종목=PCAR
+2026-04-04 21:05:05,496 - INFO - PCAR: eps_actual=4.51, eps_consensus=6.77025, operating_margin=0.092089996, debt_to_equity=0.8193699999999999
+2026-04-04 21:05:05,801 - INFO - [358/503] 종목=PCG
+2026-04-04 21:05:06,252 - INFO - PCG: eps_actual=1.18, eps_consensus=1.80334, operating_margin=0.21295999, debt_to_equity=1.87043
+2026-04-04 21:05:06,556 - INFO - [359/503] 종목=PEG
+2026-04-04 21:05:07,054 - INFO - PEG: eps_actual=4.22, eps_consensus=4.71486, operating_margin=0.18079, debt_to_equity=1.4268
+2026-04-04 21:05:07,358 - INFO - [360/503] 종목=PEP
+2026-04-04 21:05:07,750 - INFO - PEP: eps_actual=6.0, eps_consensus=9.14318, operating_margin=0.14068, debt_to_equity=2.58081
+2026-04-04 21:05:07,752 - INFO - 배치 적재: 20행 → DB
+2026-04-04 21:05:07,987 - INFO - fundamentals 20행 upsert 완료.
+2026-04-04 21:05:07,987 - INFO - 배치 적재 완료
+2026-04-04 21:05:08,289 - INFO - [361/503] 종목=PFE
+2026-04-04 21:05:08,701 - INFO - PFE: eps_actual=1.36, eps_consensus=2.82311, operating_margin=0.23945, debt_to_equity=0.77957
+2026-04-04 21:05:09,007 - INFO - [362/503] 종목=PFG
+2026-04-04 21:05:09,405 - INFO - PFG: eps_actual=5.25, eps_consensus=10.25826, operating_margin=0.14107999, debt_to_equity=0.34915
+2026-04-04 21:05:09,708 - INFO - [363/503] 종목=PG
+2026-04-04 21:05:10,103 - INFO - PG: eps_actual=6.76, eps_consensus=7.31857, operating_margin=0.26297, debt_to_equity=0.68719
+2026-04-04 21:05:10,405 - INFO - [364/503] 종목=PGR
+2026-04-04 21:05:10,800 - INFO - PGR: eps_actual=19.23, eps_consensus=16.1265, operating_margin=0.16497, debt_to_equity=0.23421
+2026-04-04 21:05:11,102 - INFO - [365/503] 종목=PH
+2026-04-04 21:05:11,495 - INFO - PH: eps_actual=27.42, eps_consensus=34.033, operating_margin=0.21724, debt_to_equity=0.6892499999999999
+2026-04-04 21:05:11,800 - INFO - [366/503] 종목=PHM
+2026-04-04 21:05:12,197 - INFO - PHM: eps_actual=11.12, eps_consensus=11.29422, operating_margin=0.18007, debt_to_equity=0.18453
+2026-04-04 21:05:12,502 - INFO - [367/503] 종목=PKG
+2026-04-04 21:05:12,909 - INFO - PKG: eps_actual=8.58, eps_consensus=12.18516, operating_margin=0.13555999, debt_to_equity=0.9493
+2026-04-04 21:05:13,214 - INFO - [368/503] 종목=PLD
+2026-04-04 21:05:13,607 - INFO - PLD: eps_actual=3.56, eps_consensus=3.34756, operating_margin=0.4133, debt_to_equity=0.6178
+2026-04-04 21:05:13,909 - INFO - [369/503] 종목=PLTR
+2026-04-04 21:05:14,306 - INFO - PLTR: eps_actual=0.62, eps_consensus=1.86141, operating_margin=0.40901002, debt_to_equity=0.03063
+2026-04-04 21:05:14,607 - INFO - [370/503] 종목=PM
+2026-04-04 21:05:15,007 - INFO - PM: eps_actual=7.26, eps_consensus=9.19898, operating_margin=0.32938
+2026-04-04 21:05:15,313 - INFO - [371/503] 종목=PNC
+2026-04-04 21:05:15,715 - INFO - PNC: eps_actual=16.6, eps_consensus=20.64044, operating_margin=0.39262
+2026-04-04 21:05:16,015 - INFO - [372/503] 종목=PNR
+2026-04-04 21:05:16,414 - INFO - PNR: eps_actual=3.93, eps_consensus=5.83135, operating_margin=0.20087999, debt_to_equity=0.45645
+2026-04-04 21:05:16,717 - INFO - [373/503] 종목=PNW
+2026-04-04 21:05:17,114 - INFO - PNW: eps_actual=5.05, eps_consensus=5.63095, operating_margin=0.109919995, debt_to_equity=2.0177099999999997
+2026-04-04 21:05:17,417 - INFO - [374/503] 종목=PODD
+2026-04-04 21:05:17,949 - INFO - PODD: eps_actual=3.47, eps_consensus=8.0808, operating_margin=0.18665001, debt_to_equity=0.66176
+2026-04-04 21:05:18,255 - INFO - [375/503] 종목=POOL
+2026-04-04 21:05:18,672 - INFO - POOL: eps_actual=10.86, eps_consensus=11.8961, operating_margin=0.053239997, debt_to_equity=1.2951300000000001
+2026-04-04 21:05:18,975 - INFO - [376/503] 종목=PPG
+2026-04-04 21:05:19,372 - INFO - PPG: eps_actual=6.92, eps_consensus=8.6403, operating_margin=0.111140005, debt_to_equity=0.97592
+2026-04-04 21:05:19,673 - INFO - [377/503] 종목=PPL
+2026-04-04 21:05:20,068 - INFO - PPL: eps_actual=1.59, eps_consensus=2.11484, operating_margin=0.18865, debt_to_equity=1.31147
+2026-04-04 21:05:20,373 - INFO - [378/503] 종목=PRU
+2026-04-04 21:05:20,767 - INFO - PRU: eps_actual=9.99, eps_consensus=15.34553, operating_margin=0.1041, debt_to_equity=1.24482
+2026-04-04 21:05:21,069 - INFO - [379/503] 종목=PSA
+2026-04-04 21:05:21,464 - INFO - PSA: eps_actual=9.0, eps_consensus=10.47603, operating_margin=0.46206, debt_to_equity=1.09763
+2026-04-04 21:05:21,769 - INFO - [380/503] 종목=PSKY
+2026-04-04 21:05:22,168 - INFO - PSKY: eps_actual=0.03, eps_consensus=0.94111, operating_margin=-0.0064999997, debt_to_equity=1.1711
+2026-04-04 21:05:22,170 - INFO - 배치 적재: 20행 → DB
+2026-04-04 21:05:22,410 - INFO - fundamentals 20행 upsert 완료.
+2026-04-04 21:05:22,410 - INFO - 배치 적재 완료
+2026-04-04 21:05:22,714 - INFO - [381/503] 종목=PSX
+2026-04-04 21:05:23,111 - INFO - PSX: eps_actual=10.78, eps_consensus=14.50645, operating_margin=0.02747, debt_to_equity=0.7138
+2026-04-04 21:05:23,416 - INFO - [382/503] 종목=PTC
+2026-04-04 21:05:23,807 - INFO - PTC: eps_actual=6.79, eps_consensus=8.27238, operating_margin=0.33803, debt_to_equity=0.35942
+2026-04-04 21:05:24,112 - INFO - [383/503] 종목=PWR
+2026-04-04 21:05:24,501 - INFO - PWR: eps_actual=6.78, eps_consensus=15.38497, operating_margin=0.05228, debt_to_equity=0.71102
+2026-04-04 21:05:24,815 - INFO - [384/503] 종목=PYPL
+2026-04-04 21:05:25,209 - INFO - PYPL: eps_actual=5.41, eps_consensus=5.79661, operating_margin=0.17485, debt_to_equity=0.6070300000000001
+2026-04-04 21:05:25,511 - INFO - [385/503] 종목=Q
+2026-04-04 21:05:26,004 - INFO - Q: eps_actual=3.3, eps_consensus=4.363, operating_margin=0.2042, debt_to_equity=0.61431
+2026-04-04 21:05:26,309 - INFO - [386/503] 종목=QCOM
+2026-04-04 21:05:26,813 - INFO - QCOM: eps_actual=4.96, eps_consensus=11.08936, operating_margin=0.27473, debt_to_equity=0.6421800000000001
+2026-04-04 21:05:27,113 - INFO - [387/503] 종목=RCL
+2026-04-04 21:05:27,503 - INFO - RCL: eps_actual=15.62, eps_consensus=20.6125, operating_margin=0.21977, debt_to_equity=2.1509
+2026-04-04 21:05:27,807 - INFO - [388/503] 종목=REG
+2026-04-04 21:05:28,202 - INFO - REG: eps_actual=2.82, eps_consensus=2.53945, operating_margin=0.38762, debt_to_equity=0.69389
+2026-04-04 21:05:28,506 - INFO - [389/503] 종목=REGN
+2026-04-04 21:05:28,895 - INFO - REGN: eps_actual=41.44, eps_consensus=52.49666, operating_margin=0.23134, debt_to_equity=0.09510999999999999
+2026-04-04 21:05:29,212 - INFO - [390/503] 종목=RF
+2026-04-04 21:05:29,602 - INFO - RF: eps_actual=2.3, eps_consensus=2.85124, operating_margin=0.39203
+2026-04-04 21:05:29,907 - INFO - [391/503] 종목=RJF
+2026-04-04 21:05:30,300 - INFO - RJF: eps_actual=10.22, eps_consensus=13.68802, operating_margin=0.19743, debt_to_equity=0.46262000000000003
+2026-04-04 21:05:30,605 - INFO - [392/503] 종목=RL
+2026-04-04 21:05:30,993 - INFO - RL: eps_actual=14.69, eps_consensus=18.00086, operating_margin=0.20091, debt_to_equity=0.9897199999999999
+2026-04-04 21:05:31,294 - INFO - [393/503] 종목=RMD
+2026-04-04 21:05:31,682 - INFO - RMD: eps_actual=10.11, eps_consensus=12.17798, operating_margin=0.35162997, debt_to_equity=0.13411
+2026-04-04 21:05:31,986 - INFO - [394/503] 종목=ROK
+2026-04-04 21:05:32,378 - INFO - ROK: eps_actual=8.76, eps_consensus=13.73288, operating_margin=0.1753, debt_to_equity=0.99289
+2026-04-04 21:05:32,683 - INFO - [395/503] 종목=ROL
+2026-04-04 21:05:33,269 - INFO - ROL: eps_actual=1.09, eps_consensus=1.40318, operating_margin=0.17643, debt_to_equity=0.75529
+2026-04-04 21:05:33,574 - INFO - [396/503] 종목=ROP
+2026-04-04 21:05:34,080 - INFO - ROP: eps_actual=14.21, eps_consensus=23.3337, operating_margin=0.28577998, debt_to_equity=0.47957
+2026-04-04 21:05:34,381 - INFO - [397/503] 종목=ROST
+2026-04-04 21:05:34,777 - INFO - ROST: eps_actual=6.6, eps_consensus=8.08747, operating_margin=0.12269, debt_to_equity=0.84241
+2026-04-04 21:05:35,082 - INFO - [398/503] 종목=RSG
+2026-04-04 21:05:35,484 - INFO - RSG: eps_actual=6.85, eps_consensus=8.04061, operating_margin=0.19492, debt_to_equity=1.15348
+2026-04-04 21:05:35,790 - INFO - [399/503] 종목=RTX
+2026-04-04 21:05:36,176 - INFO - RTX: eps_actual=4.96, eps_consensus=7.52091, operating_margin=0.110240005, debt_to_equity=0.5951299999999999
+2026-04-04 21:05:36,481 - INFO - [400/503] 종목=RVTY
+2026-04-04 21:05:37,118 - INFO - RVTY: eps_actual=2.06, eps_consensus=6.00016, operating_margin=0.20066999, debt_to_equity=0.46869
+2026-04-04 21:05:37,143 - INFO - 배치 적재: 20행 → DB
+2026-04-04 21:05:37,373 - INFO - fundamentals 20행 upsert 완료.
+2026-04-04 21:05:37,373 - INFO - 배치 적재 완료
+2026-04-04 21:05:37,678 - INFO - [401/503] 종목=SATS
+2026-04-04 21:05:38,091 - INFO - SATS: eps_actual=-50.41, eps_consensus=-1.46916, operating_margin=0.097679995, debt_to_equity=5.32734
+2026-04-04 21:05:38,396 - INFO - [402/503] 종목=SBAC
+2026-04-04 21:05:38,786 - INFO - SBAC: eps_actual=9.8, eps_consensus=7.8946, operating_margin=0.52439
+2026-04-04 21:05:39,091 - INFO - [403/503] 종목=SBUX
+2026-04-04 21:05:39,482 - INFO - SBUX: eps_actual=1.2, eps_consensus=2.95326, operating_margin=0.09262
+2026-04-04 21:05:39,787 - INFO - [404/503] 종목=SCHW
+2026-04-04 21:05:40,279 - INFO - SCHW: eps_actual=4.65, eps_consensus=6.79743, operating_margin=0.49683997, debt_to_equity=1.1532
+2026-04-04 21:05:40,581 - INFO - [405/503] 종목=SHW
+2026-04-04 21:05:40,980 - INFO - SHW: eps_actual=10.27, eps_consensus=13.42503, operating_margin=0.14162, debt_to_equity=3.0606099999999996
+2026-04-04 21:05:41,283 - INFO - [406/503] 종목=SJM
+2026-04-04 21:05:41,685 - INFO - SJM: eps_actual=-11.79, eps_consensus=10.06698, operating_margin=0.18778, debt_to_equity=1.43204
+2026-04-04 21:05:41,990 - INFO - [407/503] 종목=SLB
+2026-04-04 21:05:42,383 - INFO - SLB: eps_actual=2.35, eps_consensus=3.32144, operating_margin=0.15988, debt_to_equity=0.45975
+2026-04-04 21:05:42,687 - INFO - [408/503] 종목=SMCI
+2026-04-04 21:05:43,176 - INFO - SMCI: eps_actual=1.37, eps_consensus=3.00913, operating_margin=0.0374, debt_to_equity=0.7528
+2026-04-04 21:05:43,479 - INFO - [409/503] 종목=SNA
+2026-04-04 21:05:43,870 - INFO - SNA: eps_actual=19.19, eps_consensus=21.438, operating_margin=0.25397, debt_to_equity=0.21711
+2026-04-04 21:05:44,175 - INFO - [410/503] 종목=SNDK
+2026-04-04 21:05:44,570 - INFO - SNDK: eps_actual=-7.44, eps_consensus=87.72505, operating_margin=0.35504, debt_to_equity=0.0796
+2026-04-04 21:05:44,872 - INFO - [411/503] 종목=SNPS
+2026-04-04 21:05:45,363 - INFO - SNPS: eps_actual=6.53, eps_consensus=17.0551, operating_margin=0.13340001, debt_to_equity=0.35579
+2026-04-04 21:05:45,672 - INFO - [412/503] 종목=SO
+2026-04-04 21:05:46,067 - INFO - SO: eps_actual=3.92, eps_consensus=4.91642, operating_margin=0.12735, debt_to_equity=1.90586
+2026-04-04 21:05:46,370 - INFO - [413/503] 종목=SOLV
+2026-04-04 21:05:46,772 - INFO - SOLV: eps_actual=8.88, eps_consensus=7.04196, operating_margin=0.07007, debt_to_equity=1.03941
+2026-04-04 21:05:47,073 - INFO - [414/503] 종목=SPG
+2026-04-04 21:05:47,470 - INFO - SPG: eps_actual=14.17, eps_consensus=6.9125, operating_margin=0.49717, debt_to_equity=4.35463
+2026-04-04 21:05:47,773 - INFO - [415/503] 종목=SPGI
+2026-04-04 21:05:48,269 - INFO - SPGI: eps_actual=14.66, eps_consensus=22.0785, operating_margin=0.38252997, debt_to_equity=0.37912
+2026-04-04 21:05:48,573 - INFO - [416/503] 종목=SRE
+2026-04-04 21:05:48,967 - INFO - SRE: eps_actual=2.75, eps_consensus=5.52919, operating_margin=0.27741, debt_to_equity=0.8338500000000001
+2026-04-04 21:05:49,268 - INFO - [417/503] 종목=STE
+2026-04-04 21:05:49,659 - INFO - STE: eps_actual=7.17, eps_consensus=11.07875, operating_margin=0.18494, debt_to_equity=0.28651
+2026-04-04 21:05:49,964 - INFO - [418/503] 종목=STLD
+2026-04-04 21:05:50,359 - INFO - STLD: eps_actual=7.98, eps_consensus=15.76524, operating_margin=0.07028, debt_to_equity=0.49077
+2026-04-04 21:05:50,664 - INFO - [419/503] 종목=STT
+2026-04-04 21:05:51,062 - INFO - STT: eps_actual=9.4, eps_consensus=13.05326, operating_margin=0.27818
+2026-04-04 21:05:51,367 - INFO - [420/503] 종목=STX
+2026-04-04 21:05:51,768 - INFO - STX: eps_actual=8.84, eps_consensus=19.93199, operating_margin=0.29947, debt_to_equity=10.466230000000001
+2026-04-04 21:05:51,769 - INFO - 배치 적재: 20행 → DB
+2026-04-04 21:05:52,006 - INFO - fundamentals 20행 upsert 완료.
+2026-04-04 21:05:52,007 - INFO - 배치 적재 완료
+2026-04-04 21:05:52,309 - INFO - [421/503] 종목=STZ
+2026-04-04 21:05:52,699 - INFO - STZ: eps_actual=6.37, eps_consensus=12.35562, operating_margin=0.33917, debt_to_equity=1.3329300000000002
+2026-04-04 21:05:53,001 - INFO - [422/503] 종목=SW
+2026-04-04 21:05:53,401 - INFO - SW: eps_actual=1.33, eps_consensus=3.19123, operating_margin=0.061739996, debt_to_equity=0.8100700000000001
+2026-04-04 21:05:53,707 - INFO - [423/503] 종목=SWK
+2026-04-04 21:05:54,207 - INFO - SWK: eps_actual=2.65, eps_consensus=6.34844, operating_margin=0.10351, debt_to_equity=0.70024
+2026-04-04 21:05:54,512 - INFO - [424/503] 종목=SWKS
+2026-04-04 21:05:55,011 - INFO - SWKS: eps_actual=2.61, eps_consensus=4.98807, operating_margin=0.14709, debt_to_equity=0.20714
+2026-04-04 21:05:55,314 - INFO - [425/503] 종목=SYF
+2026-04-04 21:05:55,717 - INFO - SYF: eps_actual=9.28, eps_consensus=10.45717, operating_margin=0.48533002
+2026-04-04 21:05:56,022 - INFO - [426/503] 종목=SYK
+2026-04-04 21:05:56,418 - INFO - SYK: eps_actual=8.39, eps_consensus=16.74228, operating_margin=0.27235, debt_to_equity=0.7297100000000001
+2026-04-04 21:05:56,724 - INFO - [427/503] 종목=SYY
+2026-04-04 21:05:57,120 - INFO - SYY: eps_actual=3.71, eps_consensus=5.02309, operating_margin=0.03988, debt_to_equity=6.402480000000001
+2026-04-04 21:05:57,422 - INFO - [428/503] 종목=T
+2026-04-04 21:05:57,816 - INFO - T: eps_actual=3.04, eps_consensus=2.54469, operating_margin=0.18416001, debt_to_equity=1.24179
+2026-04-04 21:05:58,117 - INFO - [429/503] 종목=TAP
+2026-04-04 21:05:58,591 - INFO - TAP: eps_actual=-10.75, eps_consensus=5.05436, operating_margin=0.13559, debt_to_equity=0.6177199999999999
+2026-04-04 21:05:58,896 - INFO - [430/503] 종목=TDG
+2026-04-04 21:05:59,418 - INFO - TDG: eps_actual=31.04, eps_consensus=46.01462, operating_margin=0.45602
+2026-04-04 21:05:59,720 - INFO - [431/503] 종목=TDY
+2026-04-04 21:06:00,138 - INFO - TDY: eps_actual=18.88, eps_consensus=25.7137, operating_margin=0.20604, debt_to_equity=0.25129999999999997
+2026-04-04 21:06:00,440 - INFO - [432/503] 종목=TECH
+2026-04-04 21:06:00,849 - INFO - TECH: eps_actual=0.53, eps_consensus=2.17396, operating_margin=0.1967, debt_to_equity=0.17449
+2026-04-04 21:06:01,155 - INFO - [433/503] 종목=TEL
+2026-04-04 21:06:01,559 - INFO - TEL: eps_actual=6.94, eps_consensus=12.38213, operating_margin=0.20903999, debt_to_equity=0.45691000000000004
+2026-04-04 21:06:01,864 - INFO - [434/503] 종목=TER
+2026-04-04 21:06:02,355 - INFO - TER: eps_actual=3.47, eps_consensus=8.26047, operating_margin=0.3035, debt_to_equity=0.10131
+2026-04-04 21:06:02,661 - INFO - [435/503] 종목=TFC
+2026-04-04 21:06:03,152 - INFO - TFC: eps_actual=3.82, eps_consensus=5.12601, operating_margin=0.32700002
+2026-04-04 21:06:03,454 - INFO - [436/503] 종목=TGT
+2026-04-04 21:06:03,857 - INFO - TGT: eps_actual=8.13, eps_consensus=8.50928, operating_margin=0.049089998, debt_to_equity=1.25518
+2026-04-04 21:06:04,158 - INFO - [437/503] 종목=TJX
+2026-04-04 21:06:04,556 - INFO - TJX: eps_actual=4.87, eps_consensus=5.66613, operating_margin=0.13267, debt_to_equity=1.32375
+2026-04-04 21:06:04,861 - INFO - [438/503] 종목=TKO
+2026-04-04 21:06:05,252 - INFO - TKO: eps_actual=2.26, eps_consensus=3.73983, operating_margin=0.09766, debt_to_equity=0.43924
+2026-04-04 21:06:05,556 - INFO - [439/503] 종목=TMO
+2026-04-04 21:06:05,954 - INFO - TMO: eps_actual=17.74, eps_consensus=26.90149, operating_margin=0.21170999, debt_to_equity=0.77255
+2026-04-04 21:06:06,259 - INFO - [440/503] 종목=TMUS
+2026-04-04 21:06:06,660 - INFO - TMUS: eps_actual=9.73, eps_consensus=14.05555, operating_margin=0.18365, debt_to_equity=2.08851
+2026-04-04 21:06:06,662 - INFO - 배치 적재: 20행 → DB
+2026-04-04 21:06:06,901 - INFO - fundamentals 20행 upsert 완료.
+2026-04-04 21:06:06,902 - INFO - 배치 적재 완료
+2026-04-04 21:06:07,206 - INFO - [441/503] 종목=TPL
+2026-04-04 21:06:07,603 - INFO - TPL: eps_actual=6.97, eps_consensus=73.12, operating_margin=0.70641, debt_to_equity=0.012190000000000001
+2026-04-04 21:06:07,905 - INFO - [442/503] 종목=TPR
+2026-04-04 21:06:08,300 - INFO - TPR: eps_actual=2.58, eps_consensus=7.20732, operating_margin=0.28764, debt_to_equity=7.15475
+2026-04-04 21:06:08,600 - INFO - [443/503] 종목=TRGP
+2026-04-04 21:06:08,995 - INFO - TRGP: eps_actual=8.48, eps_consensus=11.09089, operating_margin=0.22621, debt_to_equity=5.4863
+2026-04-04 21:06:09,298 - INFO - [444/503] 종목=TRMB
+2026-04-04 21:06:09,705 - INFO - TRMB: eps_actual=1.76, eps_consensus=4.04296, operating_margin=0.22499001, debt_to_equity=0.26749
+2026-04-04 21:06:10,007 - INFO - [445/503] 종목=TROW
+2026-04-04 21:06:10,402 - INFO - TROW: eps_actual=9.24, eps_consensus=10.11033, operating_margin=0.32217, debt_to_equity=0.03891
+2026-04-04 21:06:10,706 - INFO - [446/503] 종목=TRV
+2026-04-04 21:06:11,106 - INFO - TRV: eps_actual=27.43, eps_consensus=28.31988, operating_margin=0.25893, debt_to_equity=0.28917000000000004
+2026-04-04 21:06:11,407 - INFO - [447/503] 종목=TSCO
+2026-04-04 21:06:11,801 - INFO - TSCO: eps_actual=2.06, eps_consensus=2.40286, operating_margin=0.07637, debt_to_equity=2.30228
+2026-04-04 21:06:12,106 - INFO - [448/503] 종목=TSLA
+2026-04-04 21:06:12,606 - INFO - TSLA: eps_actual=1.08, eps_consensus=2.81043, operating_margin=0.047030002, debt_to_equity=0.17763
+2026-04-04 21:06:12,911 - INFO - [449/503] 종목=TSN
+2026-04-04 21:06:13,404 - INFO - TSN: eps_actual=0.56, eps_consensus=4.39686, operating_margin=0.02913, debt_to_equity=0.46039
+2026-04-04 21:06:13,707 - INFO - [450/503] 종목=TT
+2026-04-04 21:06:14,110 - INFO - TT: eps_actual=13.15, eps_consensus=16.82087, operating_margin=0.15502, debt_to_equity=0.63247
+2026-04-04 21:06:14,415 - INFO - [451/503] 종목=TTD
+2026-04-04 21:06:14,816 - INFO - TTD: eps_actual=0.9, eps_consensus=2.38266, operating_margin=0.30335, debt_to_equity=0.17562999999999998
+2026-04-04 21:06:15,121 - INFO - [452/503] 종목=TTWO
+2026-04-04 21:06:15,517 - INFO - TTWO: eps_actual=-22.57, eps_consensus=7.79891, operating_margin=-0.020480001, debt_to_equity=1.0044899999999999
+2026-04-04 21:06:15,823 - INFO - [453/503] 종목=TXN
+2026-04-04 21:06:16,217 - INFO - TXN: eps_actual=5.46, eps_consensus=7.9086, operating_margin=0.34027, debt_to_equity=0.90819
+2026-04-04 21:06:16,522 - INFO - [454/503] 종목=TXT
+2026-04-04 21:06:16,928 - INFO - TXT: eps_actual=5.12, eps_consensus=7.28795, operating_margin=0.074250005, debt_to_equity=0.54375
+2026-04-04 21:06:17,231 - INFO - [455/503] 종목=TYL
+2026-04-04 21:06:17,631 - INFO - TYL: eps_actual=7.2, eps_consensus=14.18957, operating_margin=0.13159001, debt_to_equity=0.17355
+2026-04-04 21:06:17,933 - INFO - [456/503] 종목=UAL
+2026-04-04 21:06:18,333 - INFO - UAL: eps_actual=10.2, eps_consensus=14.76409, operating_margin=0.09139, debt_to_equity=2.03089
+2026-04-04 21:06:18,638 - INFO - [457/503] 종목=UBER
+2026-04-04 21:06:19,035 - INFO - UBER: eps_actual=4.73, eps_consensus=4.29336, operating_margin=0.12349, debt_to_equity=0.43805999999999995
+2026-04-04 21:06:19,340 - INFO - [458/503] 종목=UDR
+2026-04-04 21:06:19,737 - INFO - UDR: eps_actual=1.13, eps_consensus=0.55, operating_margin=0.22202, debt_to_equity=1.44726
+2026-04-04 21:06:20,042 - INFO - [459/503] 종목=UHS
+2026-04-04 21:06:20,450 - INFO - UHS: eps_actual=23.09, eps_consensus=25.57687, operating_margin=0.1153, debt_to_equity=0.69729
+2026-04-04 21:06:20,753 - INFO - [460/503] 종목=ULTA
+2026-04-04 21:06:21,148 - INFO - ULTA: eps_actual=25.63, eps_consensus=31.52133, operating_margin=0.12234, debt_to_equity=0.77835
+2026-04-04 21:06:21,150 - INFO - 배치 적재: 20행 → DB
+2026-04-04 21:06:21,389 - INFO - fundamentals 20행 upsert 완료.
+2026-04-04 21:06:21,389 - INFO - 배치 적재 완료
+2026-04-04 21:06:21,693 - INFO - [461/503] 종목=UNH
+2026-04-04 21:06:22,222 - INFO - UNH: eps_actual=13.23, eps_consensus=20.02788, operating_margin=0.00336, debt_to_equity=0.8161799999999999
+2026-04-04 21:06:22,527 - INFO - [462/503] 종목=UNP
+2026-04-04 21:06:22,927 - INFO - UNP: eps_actual=11.99, eps_consensus=13.56233, operating_margin=0.40887, debt_to_equity=1.77733
+2026-04-04 21:06:23,228 - INFO - [463/503] 종목=UPS
+2026-04-04 21:06:23,633 - INFO - UPS: eps_actual=6.56, eps_consensus=7.96648, operating_margin=0.107480004, debt_to_equity=1.75884
+2026-04-04 21:06:23,938 - INFO - [464/503] 종목=URI
+2026-04-04 21:06:24,334 - INFO - URI: eps_actual=38.58, eps_consensus=52.85833, operating_margin=0.25166, debt_to_equity=1.74732
+2026-04-04 21:06:24,639 - INFO - [465/503] 종목=USB
+2026-04-04 21:06:25,037 - INFO - USB: eps_actual=4.62, eps_consensus=5.58032, operating_margin=0.39334
+2026-04-04 21:06:25,342 - INFO - [466/503] 종목=V
+2026-04-04 21:06:25,736 - INFO - V: eps_actual=10.65, eps_consensus=14.5393, operating_margin=0.68296, debt_to_equity=0.54612
+2026-04-04 21:06:26,041 - INFO - [467/503] 종목=VICI
+2026-04-04 21:06:26,438 - INFO - VICI: eps_actual=2.61, eps_consensus=2.95, operating_margin=0.8031, debt_to_equity=0.6267900000000001
+2026-04-04 21:06:26,739 - INFO - [468/503] 종목=VLO
+2026-04-04 21:06:27,142 - INFO - VLO: eps_actual=7.57, eps_consensus=15.83272, operating_margin=0.059299998, debt_to_equity=0.43988
+2026-04-04 21:06:27,447 - INFO - [469/503] 종목=VLTO
+2026-04-04 21:06:27,846 - INFO - VLTO: eps_actual=3.76, eps_consensus=4.55726, operating_margin=0.22708, debt_to_equity=0.92692
+2026-04-04 21:06:28,147 - INFO - [470/503] 종목=VMC
+2026-04-04 21:06:28,546 - INFO - VMC: eps_actual=8.14, eps_consensus=10.84659, operating_margin=0.17536, debt_to_equity=0.57785
+2026-04-04 21:06:28,850 - INFO - [471/503] 종목=VRSK
+2026-04-04 21:06:29,248 - INFO - VRSK: eps_actual=6.48, eps_consensus=8.59282, operating_margin=0.43978, debt_to_equity=15.817950000000002
+2026-04-04 21:06:29,552 - INFO - [472/503] 종목=VRSN
+2026-04-04 21:06:29,957 - INFO - VRSN: eps_actual=8.81, eps_consensus=10.40034, operating_margin=0.66963995
+2026-04-04 21:06:30,262 - INFO - [473/503] 종목=VRT
+2026-04-04 21:06:30,655 - INFO - VRT: eps_actual=3.42, eps_consensus=8.04468, operating_margin=0.21174, debt_to_equity=0.81899
+2026-04-04 21:06:30,957 - INFO - [474/503] 종목=VRTX
+2026-04-04 21:06:31,346 - INFO - VRTX: eps_actual=15.31, eps_consensus=21.94631, operating_margin=0.39602003, debt_to_equity=0.10908
+2026-04-04 21:06:31,652 - INFO - [475/503] 종목=VST
+2026-04-04 21:06:32,152 - INFO - VST: eps_actual=2.18, eps_consensus=11.26588, operating_margin=0.1322, debt_to_equity=3.9955000000000003
+2026-04-04 21:06:32,454 - INFO - [476/503] 종목=VTR
+2026-04-04 21:06:32,866 - INFO - VTR: eps_actual=0.54, eps_consensus=0.95667, operating_margin=0.20349, debt_to_equity=1.01996
+2026-04-04 21:06:33,171 - INFO - [477/503] 종목=VTRS
+2026-04-04 21:06:33,571 - INFO - VTRS: eps_actual=-3.0, eps_consensus=2.66759, operating_margin=0.07782, debt_to_equity=0.9991
+2026-04-04 21:06:33,873 - INFO - [478/503] 종목=VZ
+2026-04-04 21:06:34,266 - INFO - VZ: eps_actual=4.06, eps_consensus=5.25473, operating_margin=0.20989001, debt_to_equity=1.7478
+2026-04-04 21:06:34,569 - INFO - [479/503] 종목=WAB
+2026-04-04 21:06:34,962 - INFO - WAB: eps_actual=6.83, eps_consensus=11.87475, operating_margin=0.15008001, debt_to_equity=0.53021
+2026-04-04 21:06:35,267 - INFO - [480/503] 종목=WAT
+2026-04-04 21:06:35,669 - INFO - WAT: eps_actual=10.77, eps_consensus=16.35044, operating_margin=0.33757, debt_to_equity=0.6028199999999999
+2026-04-04 21:06:35,671 - INFO - 배치 적재: 20행 → DB
+2026-04-04 21:06:35,910 - INFO - fundamentals 20행 upsert 완료.
+2026-04-04 21:06:35,910 - INFO - 배치 적재 완료
+2026-04-04 21:06:36,213 - INFO - [481/503] 종목=WBD
+2026-04-04 21:06:36,615 - INFO - WBD: eps_actual=0.29, eps_consensus=-0.01667, operating_margin=0.07378, debt_to_equity=0.9891
+2026-04-04 21:06:36,920 - INFO - [482/503] 종목=WDAY
+2026-04-04 21:06:37,320 - INFO - WDAY: eps_actual=2.59, eps_consensus=12.45528, operating_margin=0.120459996, debt_to_equity=0.48956000000000005
+2026-04-04 21:06:37,625 - INFO - [483/503] 종목=WDC
+2026-04-04 21:06:38,020 - INFO - WDC: eps_actual=10.57, eps_consensus=13.63793, operating_margin=0.31919, debt_to_equity=0.65436
+2026-04-04 21:06:38,323 - INFO - [484/503] 종목=WEC
+2026-04-04 21:06:38,819 - INFO - WEC: eps_actual=4.81, eps_consensus=6.0093, operating_margin=0.21308, debt_to_equity=1.5933099999999998
+2026-04-04 21:06:39,125 - INFO - [485/503] 종목=WELL
+2026-04-04 21:06:39,525 - INFO - WELL: eps_actual=1.42, eps_consensus=3.29, operating_margin=-0.28201, debt_to_equity=0.49488
+2026-04-04 21:06:39,830 - INFO - [486/503] 종목=WFC
+2026-04-04 21:06:40,282 - INFO - WFC: eps_actual=6.26, eps_consensus=7.92623, operating_margin=0.29938
+2026-04-04 21:06:40,584 - INFO - [487/503] 종목=WM
+2026-04-04 21:06:41,003 - INFO - WM: eps_actual=6.71, eps_consensus=9.35769, operating_margin=0.20038, debt_to_equity=2.39385
+2026-04-04 21:06:41,308 - INFO - [488/503] 종목=WMB
+2026-04-04 21:06:41,708 - INFO - WMB: eps_actual=2.14, eps_consensus=2.5863, operating_margin=0.41248, debt_to_equity=1.9702600000000001
+2026-04-04 21:06:42,012 - INFO - [489/503] 종목=WMT
+2026-04-04 21:06:42,413 - INFO - WMT: eps_actual=2.73, eps_consensus=3.28473, operating_margin=0.04567, debt_to_equity=0.64443
+2026-04-04 21:06:42,715 - INFO - [490/503] 종목=WRB
+2026-04-04 21:06:43,108 - INFO - WRB: eps_actual=4.45, eps_consensus=4.8385, operating_margin=0.16360001, debt_to_equity=0.31921
+2026-04-04 21:06:43,410 - INFO - [491/503] 종목=WSM
+2026-04-04 21:06:43,820 - INFO - WSM: eps_actual=8.85, eps_consensus=10.13622, operating_margin=0.20326, debt_to_equity=0.6995699999999999
+2026-04-04 21:06:44,124 - INFO - [492/503] 종목=WST
+2026-04-04 21:06:44,529 - INFO - WST: eps_actual=6.78, eps_consensus=8.85366, operating_margin=0.2164, debt_to_equity=0.10271000000000001
+2026-04-04 21:06:44,835 - INFO - [493/503] 종목=WTW
+2026-04-04 21:06:45,230 - INFO - WTW: eps_actual=16.25, eps_consensus=22.418, operating_margin=0.35388002, debt_to_equity=0.8575499999999999
+2026-04-04 21:06:45,535 - INFO - [494/503] 종목=WY
+2026-04-04 21:06:46,113 - INFO - WY: eps_actual=0.45, eps_consensus=0.71118, operating_margin=-0.114209995, debt_to_equity=0.60694
+2026-04-04 21:06:46,414 - INFO - [495/503] 종목=WYNN
+2026-04-04 21:06:46,820 - INFO - WYNN: eps_actual=3.14, eps_consensus=5.94177, operating_margin=0.1567
+2026-04-04 21:06:47,122 - INFO - [496/503] 종목=XEL
+2026-04-04 21:06:47,519 - INFO - XEL: eps_actual=3.42, eps_consensus=4.52155, operating_margin=0.16680999, debt_to_equity=1.52832
+2026-04-04 21:06:47,824 - INFO - [497/503] 종목=XOM
+2026-04-04 21:06:48,333 - INFO - XOM: eps_actual=6.7, eps_consensus=9.41193, operating_margin=0.09527001, debt_to_equity=0.18936
+2026-04-04 21:06:48,637 - INFO - [498/503] 종목=XYL
+2026-04-04 21:06:49,110 - INFO - XYL: eps_actual=3.92, eps_consensus=6.08755, operating_margin=0.15978, debt_to_equity=0.21066
+2026-04-04 21:06:49,416 - INFO - [499/503] 종목=XYZ
+2026-04-04 21:06:49,869 - INFO - XYZ: eps_actual=2.1, eps_consensus=4.73333, operating_margin=0.07969, debt_to_equity=0.40444
+2026-04-04 21:06:50,169 - INFO - [500/503] 종목=YUM
+2026-04-04 21:06:50,567 - INFO - YUM: eps_actual=5.56, eps_consensus=7.46292, operating_margin=0.31928
+2026-04-04 21:06:50,568 - INFO - 배치 적재: 20행 → DB
+2026-04-04 21:06:50,801 - INFO - fundamentals 20행 upsert 완료.
+2026-04-04 21:06:50,801 - INFO - 배치 적재 완료
+2026-04-04 21:06:51,106 - INFO - [501/503] 종목=ZBH
+2026-04-04 21:06:51,598 - INFO - ZBH: eps_actual=3.55, eps_consensus=8.98836, operating_margin=0.13967, debt_to_equity=0.61971
+2026-04-04 21:06:51,899 - INFO - [502/503] 종목=ZBRA
+2026-04-04 21:06:52,295 - INFO - ZBRA: eps_actual=8.17, eps_consensus=20.11402, operating_margin=0.15051, debt_to_equity=0.7516700000000001
+2026-04-04 21:06:52,598 - INFO - [503/503] 종목=ZTS
+2026-04-04 21:06:52,993 - INFO - ZTS: eps_actual=6.01, eps_consensus=7.54387, operating_margin=0.34688, debt_to_equity=2.7958600000000002
+2026-04-04 21:06:52,995 - INFO - 배치 적재: 3행 → DB
+2026-04-04 21:06:53,231 - INFO - fundamentals 3행 upsert 완료.
+2026-04-04 21:06:53,231 - INFO - 배치 적재 완료
+2026-04-04 21:06:53,231 - INFO - fundamentals 수집 종료 (503종목 처리)

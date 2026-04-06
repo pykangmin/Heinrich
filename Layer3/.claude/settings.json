@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(poetry run:*)",
+      "Read(//Users/lkm/Desktop/coding/Heinrich/Layer3/**)"
+    ],
+    "additionalDirectories": [
+      "/Users/lkm/.claude/memory"
+    ]
+  }
+}

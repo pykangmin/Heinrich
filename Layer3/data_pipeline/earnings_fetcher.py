@@ -157,17 +157,36 @@ def _load_symbols_from_csv() -> list[str]:
     return [s for s in sym.tolist() if s]
 
 
+def _load_symbols_from_classification() -> list[str]:
+    """분류.json에서 심볼 로드."""
+    from data_pipeline.classification_loader import load_classification_df
+    try:
+        df = load_classification_df()
+        if df.empty:
+            return []
+        return df['symbol'].unique().tolist()
+    except Exception as e:
+        logger.warning("분류.json에서 심볼 로드 실패: %s", e)
+        return []
+
+
 def load_symbols() -> list[str]:
-    """DB tickers 우선, 없으면 최신 S&P500 CSV."""
+    """DB tickers 우선, 없으면 S&P500 CSV, 없으면 분류.json."""
     try:
         syms = _load_symbols_from_db()
         if syms:
             return syms
     except Exception as e:
         logger.warning("DB에서 심볼 로드 실패, CSV 시도: %s", e)
+
     syms = _load_symbols_from_csv()
+    if syms:
+        return syms
+
+    logger.warning("CSV에서 심볼 로드 실패, 분류.json 시도.")
+    syms = _load_symbols_from_classification()
     if not syms:
-        logger.warning("심볼 소스 없음(DB·CSV). 빈 목록 반환.")
+        logger.warning("심볼 소스 없음(DB·CSV·분류.json). 빈 목록 반환.")
     return syms
 
 

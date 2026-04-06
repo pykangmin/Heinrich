@@ -259,14 +259,55 @@ def load_symbols() -> list[str]:
 if __name__ == "__main__":
     from data_pipeline.db_manager import DBManager
 
+    BATCH_SIZE = 20
+
+    # 1. DB 연결 사전 확인
+    logger.info("DB 연결 확인 중...")
+    try:
+        db = DBManager()
+        db.engine.connect().close()
+        logger.info("DB 연결 성공 — 수집 시작")
+    except Exception as e:
+        logger.error("DB 연결 실패, 종료: %s", e)
+        raise SystemExit(1)
+
+    # 2. 심볼 로드
     symbols = load_symbols()
     if not symbols:
         raise SystemExit(1)
     logger.info("로드된 심볼 %s개 — CIK 맵 조회 중...", len(symbols))
     cik_map = load_cik_map(symbols)
-    logger.info("CIK 매핑 %s개 — 수집 루프 시작 (종목당 지연·Form 4 건수에 따라 수십 분 소요 가능)", len(cik_map))
-    df = fetch_all(symbols, cik_map)
-    if df.empty:
-        logger.warning("적재할 내부자 거래 행이 없습니다.")
-    else:
-        DBManager().upsert_insider_trades(df)
+    logger.info("CIK 매핑 %s개 — 수집 루프 시작 (배치=%s)...", len(cik_map), BATCH_SIZE)
+
+    headers = _get_headers()
+    total = len(symbols)
+    batch_rows: list[dict] = []
+
+    for i, sym in enumerate(symbols):
+        nsym = str(sym).upper().strip().replace(".", "-")
+        cik = cik_map.get(nsym)
+        logger.info("[%s/%s] 종목=%s", i + 1, total, nsym)
+        if not cik:
+            logger.warning("CIK 매핑 없음: %s", nsym)
+        else:
+            try:
+                batch_rows.extend(fetch_filings_for_cik(cik, nsym, headers))
+            except Exception as e:
+                logger.warning("submissions 수집 실패 symbol=%s: %s", nsym, e)
+
+        if i + 1 < total:
+            time.sleep(0.5)
+
+        # 20종목마다 또는 마지막 종목에서 DB 적재
+        if (i + 1) % BATCH_SIZE == 0 or i + 1 == total:
+            if batch_rows:
+                df_batch = pd.DataFrame(batch_rows)
+                logger.info("배치 적재: %s행 → DB", len(df_batch))
+                try:
+                    db.upsert_insider_trades(df_batch)
+                    logger.info("배치 적재 완료")
+                except Exception as e:
+                    logger.error("배치 적재 실패 (행 유실): %s", e)
+                batch_rows = []
+            else:
+                logger.info("배치 내 적재할 행 없음")
