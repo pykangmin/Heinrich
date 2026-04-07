@@ -1,0 +1,30 @@
+# Environment
+.env
+.env.*
+!.env_sample
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Logs
+*.log
+
+# Data files
+*.xlsx
+*.csv
+분류.json
+
+# IDE
+.vscode/
+.idea/
+
+# Claude
+.claude/settings.json
